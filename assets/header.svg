@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Yuze — AI Security Researcher</title>
+  <desc id="desc">A dark research console with data-flow nodes, a restrained alert marker, and system status.</desc>
+  <defs>
+    <style>
+      .display { font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif; }
+      .mono { font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace; }
+    </style>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#30363D" stroke-width="1" opacity=".42"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset=".64" stop-color="#11161D"/>
+      <stop offset="1" stop-color="#161B22"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="320" rx="18" fill="url(#fade)"/>
+  <rect x="1" y="1" width="1198" height="318" rx="17" fill="none" stroke="#30363D"/>
+  <rect width="1200" height="320" rx="18" fill="url(#grid)" opacity=".55"/>
+  <path d="M0 58H1200M0 273H1200" stroke="#30363D"/>
+  <path d="M936 58V273" stroke="#30363D"/>
+  <g fill="none" stroke="#8B949E" stroke-width="1.5" opacity=".62">
+    <path d="M965 110h58l25 28h76"/>
+    <path d="M965 172h38l22-19h41l22 37h36"/>
+    <path d="M965 232h70l25-22h64"/>
+  </g>
+  <g fill="#0D1117" stroke="#8B949E" stroke-width="1.5">
+    <circle cx="965" cy="110" r="5"/><circle cx="1023" cy="110" r="5"/><circle cx="1048" cy="138" r="5"/><circle cx="1124" cy="138" r="5"/>
+    <circle cx="965" cy="172" r="5"/><circle cx="1025" cy="153" r="5"/><circle cx="1066" cy="153" r="5"/><circle cx="1088" cy="190" r="5"/><circle cx="1124" cy="190" r="5"/>
+    <circle cx="965" cy="232" r="5"/><circle cx="1035" cy="232" r="5"/><circle cx="1060" cy="210" r="5"/><circle cx="1124" cy="210" r="5"/>
+  </g>
+  <circle cx="1088" cy="190" r="16" fill="#DA3633" opacity=".10" filter="url(#soft)"/>
+  <circle cx="1088" cy="190" r="5" fill="#DA3633" stroke="#F85149"/>
+  <g class="mono" font-size="14" letter-spacing=".8">
+    <text x="34" y="36" fill="#8B949E">RESEARCH CONSOLE / IDENTITY NODE</text>
+    <text x="1165" y="36" text-anchor="end" fill="#D29922">ATTACK SURFACE / 01</text>
+    <text x="34" y="300" fill="#3FB950">● SYSTEM STATUS: RESEARCH IN PROGRESS</text>
+    <text x="1165" y="300" text-anchor="end" fill="#8B949E">TRACE 0x59A · ONLINE</text>
+  </g>
+  <text class="display" x="66" y="157" fill="#E6EDF3" font-size="78" font-weight="700" letter-spacing="8">YUZE</text>
+  <rect x="68" y="178" width="54" height="3" fill="#DA3633"/>
+  <text class="display" x="68" y="213" fill="#E6EDF3" font-size="23" font-weight="600" letter-spacing="3">AI SECURITY RESEARCHER</text>
+  <text class="mono" x="68" y="246" fill="#8B949E" font-size="15" letter-spacing=".8">AGENT SECURITY · PROGRAM ANALYSIS · VULNERABILITY RESEARCH</text>
+  <g stroke="#D29922" fill="none" opacity=".75">
+    <path d="M918 83h-12v12M1146 83h12v12M918 248h-12v-12M1146 248h12v-12" stroke-width="2"/>
+    <circle cx="1038" cy="165" r="94" stroke-dasharray="2 12"/>
+  </g>
+  <rect x="66" y="132" width="3" height="28" fill="#E6EDF3">
+    <animate attributeName="opacity" values="1;.15;1" dur="1.4s" repeatCount="indefinite"/>
+  </rect>
+</svg>

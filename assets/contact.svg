@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140" role="img" aria-labelledby="title desc">
+  <title id="title">Establish connection</title>
+  <desc id="desc">A secure channel handshake rendered as a minimal terminal trace.</desc>
+  <defs><style>.mono { font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace; }</style></defs>
+  <rect width="1200" height="140" rx="14" fill="#0D1117"/>
+  <rect x="1" y="1" width="1198" height="138" rx="13" fill="none" stroke="#30363D"/>
+  <g class="mono">
+    <text x="32" y="33" fill="#8B949E" font-size="14" letter-spacing=".8">SECURE CHANNEL / HANDSHAKE</text>
+    <text x="32" y="84" fill="#E6EDF3" font-size="24" letter-spacing="1.2">ESTABLISH CONNECTION</text>
+    <rect x="354" y="64" width="3" height="24" fill="#3FB950">
+      <animate attributeName="opacity" values="1;.15;1" dur="1.3s" repeatCount="indefinite"/>
+    </rect>
+    <path d="M690 70h114l28-24h90l30 24h116" fill="none" stroke="#8B949E" stroke-width="1.5"/>
+    <path d="M690 92h184l26-20h168" fill="none" stroke="#30363D"/>
+    <g fill="#0D1117" stroke="#D29922" stroke-width="1.5">
+      <circle cx="690" cy="70" r="6"/><circle cx="832" cy="46" r="6"/><circle cx="922" cy="46" r="6"/><circle cx="952" cy="70" r="6"/><circle cx="1068" cy="70" r="6"/>
+    </g>
+    <text x="1168" y="117" text-anchor="end" fill="#3FB950" font-size="14">READY TO RECEIVE</text>
+  </g>
+</svg>

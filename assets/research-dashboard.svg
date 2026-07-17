@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub telemetry awaiting first sync</title>
+  <desc id="desc">Placeholder shown until the scheduled workflow retrieves real GitHub metrics.</desc>
+  <defs><style>.mono { font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace; }</style></defs>
+  <rect width="1200" height="300" rx="14" fill="#0D1117"/>
+  <rect x="1" y="1" width="1198" height="298" rx="13" fill="none" stroke="#30363D"/>
+  <g class="mono">
+    <text x="32" y="39" fill="#8B949E" font-size="14" letter-spacing=".8">GITHUB TELEMETRY / LOCAL SNAPSHOT</text>
+    <text x="1168" y="39" text-anchor="end" fill="#D29922" font-size="14">AWAITING SYNC</text>
+    <path d="M32 60H1168" stroke="#30363D"/>
+    <text x="600" y="137" text-anchor="middle" fill="#E6EDF3" font-size="24">NO METRICS GENERATED YET</text>
+    <text x="600" y="174" text-anchor="middle" fill="#8B949E" font-size="16">Run scripts/generate_dashboard.py or dispatch the dashboard workflow.</text>
+    <text x="600" y="216" text-anchor="middle" fill="#3FB950" font-size="14">NO DATA CLAIMS HAVE BEEN MADE</text>
+    <path d="M400 244H800" stroke="#30363D" stroke-dasharray="4 8"/>
+  </g>
+</svg>
