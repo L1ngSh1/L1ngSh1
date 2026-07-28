@@ -9,7 +9,7 @@
     <text x="1168" y="39" text-anchor="end" fill="#3FB950" font-size="14">SYNCED</text>
     <path d="M32 60H1168" stroke="#30363D"/>
     <g fill="#8B949E" font-size="13" letter-spacing=".6"><text x="32" y="94">PUBLIC REPOS</text><text x="262" y="94">FOLLOWERS</text><text x="492" y="94">STARS</text><text x="722" y="94">FORKS</text></g>
-    <g fill="#E6EDF3" font-size="34" font-weight="700"><text x="32" y="139">8</text><text x="262" y="139">7</text><text x="492" y="139">5</text><text x="722" y="139">0</text></g>
+    <g fill="#E6EDF3" font-size="34" font-weight="700"><text x="32" y="139">8</text><text x="262" y="139">9</text><text x="492" y="139">5</text><text x="722" y="139">0</text></g>
     <path d="M242 78V150M472 78V150M702 78V150M932 78V150" stroke="#30363D"/>
     <text x="32" y="194" fill="#8B949E" font-size="13" letter-spacing=".6">REPOSITORY LANGUAGE DISTRIBUTION</text>
     <rect x="32.0" y="225" width="506.7" height="10" fill="#DA3633"/><rect x="538.7" y="225" width="126.7" height="10" fill="#D29922"/><rect x="665.3" y="225" width="126.7" height="10" fill="#3FB950"/>
