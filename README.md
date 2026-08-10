@@ -1,13 +1,6 @@
-<!--
-  PROFILE CONFIGURATION — replace every placeholder before publishing:
-  YOUR_GITHUB_USERNAME · YOUR_EMAIL · YOUR_LINKEDIN_URL · YOUR_WEBSITE_URL
-  PROJECT_URL_ARBORCHIVE · PROJECT_URL_VEP · PROJECT_URL_LIVEPI
-  PROJECT_URL_SECURITY_PAPERS · PROJECT_URL_NETWATCH
--->
-
 <div align="center">
 
-![Yuze — AI Security Researcher](assets/header.svg)
+![L1ngSh1 — AI Security Researcher](assets/header.svg)
 
 [![Typing introduction](https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=17&duration=3800&pause=1200&color=8B949E&center=true&vCenter=true&repeat=true&width=760&height=42&lines=AI+Security+Researcher;Breaking+agents+to+build+safer+systems;Exploring+indirect+prompt+injection;Building+program-analysis+tools;Automating+vulnerability+discovery;Training+for+offensive+security)](https://git.io/typing-svg)
 
@@ -18,11 +11,12 @@
 ### `$ whoami`
 
 ```text
-name     : Yuze
-role     : AI Security Researcher
-focus    : Agent Security · Program Analysis · Vulnerability Research
+name     : L1ngSh1 (Yuze_Yang)
+role     : Security Engineer / Researcher
+focus    : Agent Security · Program Analysis · Vulnerability Research · Reverse
+major    : Cyber Security · Computer Science · Software Engineering · Electrical Engineering
 building : Security evaluation and automated analysis systems
-research : Indirect prompt injection and trustworthy AI agents
+research : Indirect prompt injection and trustworthy AI agents（2026.6）
 status   : LEARNING · BUILDING · BREAKING
 ```
 
@@ -52,9 +46,9 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
 
 <div align="center">
 
-[![GitHub telemetry dashboard](assets/research-dashboard.svg)](https://github.com/YOUR_GITHUB_USERNAME)
+[![GitHub telemetry dashboard](assets/research-dashboard.svg)](https://github.com/L1ngSh1)
 
-[![GitHub contribution streak](https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=github-dark-blue&hide_border=true&background=0D1117&ring=D29922&fire=DA3633&currStreakLabel=E6EDF3&sideLabels=8B949E&dates=8B949E)](https://github.com/YOUR_GITHUB_USERNAME)
+[![GitHub contribution streak](https://streak-stats.demolab.com?user=L1ngSh1&theme=github-dark-blue&hide_border=true&background=0D1117&ring=D29922&fire=DA3633&currStreakLabel=E6EDF3&sideLabels=8B949E&dates=8B949E)](https://github.com/L1ngSh1)
 
 </div>
 
@@ -64,37 +58,52 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
 
 #### Languages
 
-![Python](https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=E6EDF3)
-![C++](https://img.shields.io/badge/C%2B%2B-161B22?style=flat-square&logo=cplusplus&logoColor=E6EDF3)
-![Java](https://img.shields.io/badge/Java-161B22?style=flat-square&logo=openjdk&logoColor=E6EDF3)
-![Bash](https://img.shields.io/badge/Bash-161B22?style=flat-square&logo=gnubash&logoColor=E6EDF3)
-
-`JavaScript` · `systems scripting` · `research automation`
+![Python](https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=3776AB)
+![C++](https://img.shields.io/badge/C%2B%2B-161B22?style=flat-square&logo=cplusplus&logoColor=00599C)
+![Java](https://img.shields.io/badge/Java-161B22?style=flat-square&logo=openjdk&logoColor=ED8B00)
+![Bash](https://img.shields.io/badge/Bash-161B22?style=flat-square&logo=gnubash&logoColor=4EAA25)
+![JavaScript](https://img.shields.io/badge/JavaScript-161B22?style=flat-square&logo=javascript&logoColor=F7DF1E)
 
 #### Analysis Infrastructure
 
-![Clang / LLVM](https://img.shields.io/badge/Clang_%2F_LLVM-161B22?style=flat-square&logo=llvm&logoColor=E6EDF3)
-![CodeQL](https://img.shields.io/badge/CodeQL-161B22?style=flat-square&logo=github&logoColor=E6EDF3)
-
-`Clang AST` · `static analysis` · `data flow` · `taint analysis`
+![Clang / LLVM](https://img.shields.io/badge/Clang_%2F_LLVM-161B22?style=flat-square&logo=llvm&logoColor=F34B7D)
+![CodeQL](https://img.shields.io/badge/CodeQL-161B22?style=flat-square&logo=github&logoColor=2088FF)
+![Clang AST](https://img.shields.io/badge/Clang_AST-161B22?style=flat-square&logo=c&logoColor=A8B9CC)
+![Static Analysis](https://img.shields.io/badge/Static_Analysis-161B22?style=flat-square&logo=semgrep&logoColor=00A98F)
+![Data Flow](https://img.shields.io/badge/Data_Flow-161B22?style=flat-square&logo=apacheairflow&logoColor=017CEE)
+![Taint Analysis](https://img.shields.io/badge/Taint_Analysis-161B22?style=flat-square&logo=owasp&logoColor=5A5ADB)
 
 #### Security Environment
 
-![Linux](https://img.shields.io/badge/Linux-161B22?style=flat-square&logo=linux&logoColor=E6EDF3)
-![Docker](https://img.shields.io/badge/Docker-161B22?style=flat-square&logo=docker&logoColor=E6EDF3)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-161B22?style=flat-square&logo=burpsuite&logoColor=E6EDF3)
-
-`Git` · `Frida` · `mitmproxy` · `Nmap`
+![Linux](https://img.shields.io/badge/Linux-161B22?style=flat-square&logo=linux&logoColor=FCC624)
+![Docker](https://img.shields.io/badge/Docker-161B22?style=flat-square&logo=docker&logoColor=2496ED)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-161B22?style=flat-square&logo=burpsuite&logoColor=FF6633)
+![Git](https://img.shields.io/badge/Git-161B22?style=flat-square&logo=git&logoColor=F05032)
+![Frida](https://img.shields.io/badge/Frida-161B22?style=flat-square&logo=frida&logoColor=E7E7E7)
+![mitmproxy](https://img.shields.io/badge/mitmproxy-161B22?style=flat-square&logo=python&logoColor=3776AB)
+![Nmap](https://img.shields.io/badge/Nmap-161B22?style=flat-square&logo=target&logoColor=4682B4)
 
 #### Agent & Evaluation Research
 
-`LLM agents` · `prompt injection` · `security evaluation` · `reproducible experiments`
+![LLM Agents](https://img.shields.io/badge/LLM_Agents-161B22?style=flat-square&logo=openai&logoColor=10A37F)
+![Prompt Injection](https://img.shields.io/badge/Prompt_Injection-161B22?style=flat-square&logo=owasp&logoColor=F85149)
+![Security Evaluation](https://img.shields.io/badge/Security_Evaluation-161B22?style=flat-square&logo=checkmarx&logoColor=54B848)
+![Reproducible Experiments](https://img.shields.io/badge/Reproducible_Experiments-161B22?style=flat-square&logo=pytest&logoColor=0A9EDC)
 
 ![Featured systems console](assets/projects.svg)
 
 ### Featured Systems
 
-#### [`01 / Arborchive`](PROJECT_URL_ARBORCHIVE)
+
+#### [`01 / Vuln-Eval-Platform`](https://github.com/L1ngSh1/Vuln-Eval-Platform)
+
+**A vulnerability-evaluation platform for analysis systems.** Measures and compares automated security tools through reproducible experiments, explicit metrics, and reviewable evidence.
+
+`Security Evaluation` · `Benchmark` · `Vulnerability Detection`
+
+---
+
+#### [`02 / Arborchive`](https://github.com/L1ngSh1/Arborchive)
 
 **Program-analysis infrastructure for source-level reasoning.** Built with C++ and Clang AST, with a focus on templates, namespaces, class hierarchies, initialization, and explicit source relationships.
 
@@ -102,26 +111,19 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
 
 ---
 
-#### [`02 / VEP`](PROJECT_URL_VEP)
-
-**A vulnerability-evaluation platform for analysis systems.** Measures and compares automated security tools through reproducible experiments, explicit metrics, and reviewable evidence.
-
-`Security Evaluation` · `Benchmarking` · `Vulnerability Detection`
-
----
-
-#### [`03 / LivePI Reproduction`](PROJECT_URL_LIVEPI)
+#### [`03 / IPI-Security-Vault`](https://github.com/L1ngSh1/IPI-Security-Vault)
 
 **A reproducible environment for indirect prompt-injection research.** Evaluates attacks against LLM agents and tool-using systems inside controlled Docker-based experiments.
 
-`Agent Security` · `Prompt Injection` · `Docker` · `Evaluation`
+`Agent Security` · `Prompt Injection` · `Docker` · `Android`
 
 ---
 
 #### More Systems
 
-- [`Security Top-4 Papers`](PROJECT_URL_SECURITY_PAPERS) — structured reading and technical analysis of leading security research.
-- [`netwatch-cli`](PROJECT_URL_NETWATCH) — lightweight network and system inspection for security-engineering workflows.
+- [`ctf-lab`](https://github.com/L1ngSh1/ctf-lab) — practical CTF exercises and offensive-security methodology.
+
+- [`netwatch-cli`](https://github.com/L1ngSh1/netwatch-cli) — lightweight network and system inspection for security-engineering workflows.
 
 ![Research node divider](assets/divider.svg)
 
@@ -143,17 +145,17 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
 03  Understand how systems break before claiming they are safe.
 ```
 
-![Establish connection](assets/contact.svg)
-
-<!-- Replace contact placeholders before publishing: YOUR_EMAIL · YOUR_LINKEDIN_URL · YOUR_WEBSITE_URL -->
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/contact-mobile.svg">
+  <img src="assets/contact.svg" alt="TCP three-way handshake contact panel" width="100%">
+</picture>
 
 <div align="center">
 
-[![GitHub profile](https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge&logo=github&logoColor=E6EDF3)](https://github.com/YOUR_GITHUB_USERNAME)
-[![Email Yuze](https://img.shields.io/badge/EMAIL-0D1117?style=for-the-badge&logo=protonmail&logoColor=E6EDF3)](mailto:YOUR_EMAIL)
-[![LinkedIn profile](https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=E6EDF3)](YOUR_LINKEDIN_URL)
-[![Personal website](https://img.shields.io/badge/WEBSITE-0D1117?style=for-the-badge&logo=firefoxbrowser&logoColor=E6EDF3)](YOUR_WEBSITE_URL)
+[![GitHub profile](https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge&logo=github&logoColor=E6EDF3)](https://github.com/L1ngSh1)
+[![Email L1ngSh1](https://img.shields.io/badge/EMAIL-0D1117?style=for-the-badge&logo=protonmail&logoColor=E6EDF3)](mailto:y4n9yuz3@gmail.com)
+[![LinkedIn profile](https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=E6EDF3)](https://www.linkedin.com/in/yuze-yang-9a548a3b3/)
 
 </div>
 
-![Yuze research console footer](assets/footer.svg)
+![L1ngSh1 research console footer](assets/footer.svg)

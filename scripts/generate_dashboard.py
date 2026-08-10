@@ -16,13 +16,14 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "assets" / "research-dashboard.svg"
 API = "https://api.github.com"
 COLORS = ["#DA3633", "#D29922", "#3FB950", "#8B949E", "#6E7681"]
+DEFAULT_USERNAME = "L1ngSh1"
 
 
 def api_get(path: str) -> object:
     token = os.environ.get("GITHUB_TOKEN", "")
     headers = {
         "Accept": "application/vnd.github+json",
-        "User-Agent": "yuze-profile-dashboard",
+        "User-Agent": "L1ngSh1-profile-dashboard",
         "X-GitHub-Api-Version": "2022-11-28",
     }
     if token:
@@ -95,9 +96,7 @@ def build_svg(username: str, profile: dict[str, object], repos: list[dict[str, o
 
 
 def main() -> int:
-    username = os.environ.get("GITHUB_USERNAME", "").strip()
-    if not username or username == "YOUR_GITHUB_USERNAME":
-        raise SystemExit("Set GITHUB_USERNAME to a real GitHub account name.")
+    username = os.environ.get("GITHUB_USERNAME", DEFAULT_USERNAME).strip() or DEFAULT_USERNAME
     try:
         profile_data = api_get(f"/users/{username}")
         repo_data = api_get(f"/users/{username}/repos?per_page=100&sort=updated")

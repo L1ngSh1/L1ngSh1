@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-  <title id="title">GitHub telemetry for yangyuze-06</title>
+  <title id="title">GitHub telemetry for L1ngSh1</title>
   <desc id="desc">Public repository, follower, star, fork, and language summary generated from GitHub data.</desc>
   <defs><style>.mono { font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace; }</style></defs>
   <rect width="1200" height="300" rx="14" fill="#0D1117"/>
   <rect x="1" y="1" width="1198" height="298" rx="13" fill="none" stroke="#30363D"/>
   <g class="mono">
-    <text x="32" y="39" fill="#8B949E" font-size="14" letter-spacing=".8">GITHUB TELEMETRY / yangyuze-06</text>
+    <text x="32" y="39" fill="#8B949E" font-size="14" letter-spacing=".8">GITHUB TELEMETRY / L1ngSh1</text>
     <text x="1168" y="39" text-anchor="end" fill="#3FB950" font-size="14">SYNCED</text>
     <path d="M32 60H1168" stroke="#30363D"/>
     <g fill="#8B949E" font-size="13" letter-spacing=".6"><text x="32" y="94">PUBLIC REPOS</text><text x="262" y="94">FOLLOWERS</text><text x="492" y="94">STARS</text><text x="722" y="94">FORKS</text></g>

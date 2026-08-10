@@ -5,10 +5,10 @@
 ## Local update
 
 ```bash
-GITHUB_USERNAME=YOUR_GITHUB_USERNAME python3 scripts/generate_dashboard.py
+python3 scripts/generate_dashboard.py
 ```
 
-Unauthenticated requests are sufficient for occasional local runs. Set `GITHUB_TOKEN` only when needed to increase the API rate limit; never commit a token.
+The script defaults to `L1ngSh1`; set `GITHUB_USERNAME` only to render another profile. Unauthenticated requests are sufficient for occasional local runs. Set `GITHUB_TOKEN` only when needed to increase the API rate limit; never commit a token.
 
 ## Automated update
 

@@ -1,11 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="52" viewBox="0 0 1200 52" role="img" aria-labelledby="title">
-  <title id="title">Active research node divider</title>
-  <defs><style>.mono { font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace; }</style></defs>
-  <rect x="1" y="25" width="1198" height="1" fill="#30363D"/>
-  <rect x="34" y="10" width="210" height="32" rx="4" fill="#0D1117" stroke="#30363D"/>
-  <text class="mono" x="139" y="31" text-anchor="middle" fill="#8B949E" font-size="13" letter-spacing=".8">[ RESEARCH NODE ]</text>
-  <rect x="1026" y="10" width="140" height="32" rx="4" fill="#0D1117" stroke="#30363D"/>
-  <circle cx="1048" cy="26" r="4" fill="#3FB950"/>
-  <text class="mono" x="1110" y="31" text-anchor="middle" fill="#8B949E" font-size="13" letter-spacing=".8">ACTIVE</text>
-  <path d="M260 21l8 5-8 5M1000 21l8 5-8 5" fill="none" stroke="#DA3633" stroke-width="1.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="52" viewBox="0 0 1200 52" role="img" aria-labelledby="title description">
+  <title id="title">Research node active status telemetry divider</title>
+  <desc id="description">A research node sends a small amber status signal to an active node, which acknowledges and returns the signal.</desc>
+  <defs>
+    <style>
+      .mono {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace;
+      }
+
+      .packet-out {
+        animation: packet-out 10s linear infinite;
+      }
+
+      .packet-back {
+        animation: packet-back 10s linear infinite;
+      }
+
+      .active-node {
+        opacity: .78;
+        transform-box: view-box;
+        transform-origin: 1080px 26px;
+        animation: active-ack 10s ease-in-out infinite;
+      }
+
+      .research-node {
+        transform-box: view-box;
+        transform-origin: 190px 26px;
+        animation: research-ack 10s ease-in-out infinite;
+      }
+
+      @keyframes packet-out {
+        0%, 14.9% { opacity: 0; transform: translateX(0); }
+        15% { opacity: 1; transform: translateX(0); }
+        27% { opacity: 1; transform: translateX(890px); }
+        27.1%, 100% { opacity: 0; transform: translateX(890px); }
+      }
+
+      @keyframes active-ack {
+        0%, 26.9% { opacity: .78; transform: scale(1); }
+        27% { opacity: 1; transform: scale(1.4); }
+        30%, 57% { opacity: 1; transform: scale(1.25); }
+        59%, 100% { opacity: .78; transform: scale(1); }
+      }
+
+      @keyframes packet-back {
+        0%, 56.9% { opacity: 0; transform: translateX(0); }
+        57% { opacity: 1; transform: translateX(0); }
+        69% { opacity: 1; transform: translateX(-890px); }
+        69.1%, 100% { opacity: 0; transform: translateX(-890px); }
+      }
+
+      @keyframes research-ack {
+        0%, 68.9% { transform: scale(1); }
+        69% { transform: scale(1.35); }
+        72%, 100% { transform: scale(1); }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .packet-out,
+        .packet-back {
+          display: none;
+          animation: none;
+        }
+
+        .active-node,
+        .research-node {
+          opacity: 1;
+          transform: none;
+          animation: none;
+        }
+      }
+    </style>
+  </defs>
+
+  <text class="mono" x="16" y="31" fill="#8B949E" font-size="13" letter-spacing=".8">[ RESEARCH NODE ]</text>
+  <line x1="190" y1="26" x2="1080" y2="26" stroke="#8B949E" stroke-width="1" opacity=".58"/>
+  <circle class="research-node" cx="190" cy="26" r="4.5" fill="#DA3633"/>
+  <circle class="packet-out" cx="190" cy="26" r="3.5" fill="#D29922" opacity="0"/>
+  <circle class="packet-back" cx="1080" cy="26" r="3.5" fill="#D29922" opacity="0"/>
+  <circle class="active-node" cx="1080" cy="26" r="4.5" fill="#3FB950"/>
+  <text class="mono" x="1096" y="31" fill="#8B949E" font-size="13" letter-spacing=".8">ACTIVE</text>
 </svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="460" viewBox="0 0 720 460" role="img" aria-labelledby="title desc">
+  <title id="title">TCP three-way handshake contact panel</title>
+  <desc id="desc">A mobile six-endpoint TCP rail shows SYN, SYN ACK, and ACK packets before contact channels become ready.</desc>
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace; }
+      .rail,.track { fill:none; stroke:#30363D; stroke-width:1.25; }
+      .endpoint { fill:#0D1117; stroke:#8B949E; stroke-width:1.4; }
+      .stage-label { fill:#8B949E; font-size:12px; letter-spacing:.7px; opacity:.52; }
+      .arrow { fill:none; stroke:#8B949E; stroke-width:1.25; opacity:.55; }
+      .packet { fill:#DA3633; stroke:#F85149; stroke-width:1; }
+      .packet circle { opacity:0; }
+      .established,.established-line,.established-text,.endpoint-status { opacity:0; }
+      .established-line { stroke-dasharray:500; stroke-dashoffset:500; }
+      .channels { opacity:.5; }
+      .ready { fill:#6E7681; opacity:.38; }
+      .channel-button { fill:#11161D; stroke:#30363D; }
+      .channel-icon { fill:#E6EDF3; stroke:#E6EDF3; }
+      .channel-icon-outline { fill:none; stroke:#E6EDF3; }
+      .channel-name { fill:#E6EDF3; font-size:15px; font-weight:700; letter-spacing:1.35px; }
+      @media (prefers-reduced-motion: reduce) {
+        .packet { display:none; }
+        .stage-label { fill:#E6EDF3 !important; opacity:1 !important; }
+        .arrow { stroke:#8B949E !important; opacity:.55 !important; }
+        .established,.established-line,.established-text,.endpoint-status,.channels,.ready { opacity:1 !important; transform:none !important; }
+        .established-line { stroke-dashoffset:0 !important; }
+        .ready { fill:#3FB950 !important; }
+      }
+    </style>
+  </defs>
+  <rect width="720" height="460" rx="14" fill="#0D1117"/>
+  <rect x="1" y="1" width="718" height="458" rx="13" fill="none" stroke="#30363D"/>
+  <g class="mono">
+    <text x="28" y="34" fill="#8B949E" font-size="15" letter-spacing=".8">TCP / THREE-WAY HANDSHAKE</text>
+    <text x="28" y="76" fill="#E6EDF3" font-size="25" letter-spacing="1">ESTABLISH CONNECTION</text>
+    <text class="established" x="28" y="105" fill="#3FB950" font-size="12" letter-spacing=".8">● CONNECTION ESTABLISHED<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.56;.6;1" begin="0s" dur="20s" repeatCount="indefinite"/></text>
+
+    <g text-anchor="middle" fill="#8B949E" font-size="12" letter-spacing=".8"><text x="104" y="133">VISITOR</text><text x="616" y="133">L1NGSH1 NODE</text></g>
+    <path class="rail" d="M104 154V246M616 154V246"/>
+    <path class="track" d="M110 160H610M110 200H610M110 240H610"/>
+    <g class="endpoint">
+      <circle cx="104" cy="160" r="6"><animate attributeName="stroke" values="#8B949E;#8B949E;#DA3633;#DA3633;#8B949E;#8B949E" keyTimes="0;0.095;0.1;0.11;0.12;1" begin="0s" dur="20s" repeatCount="indefinite"/><animate attributeName="r" values="6;6;7.25;6;6;6" keyTimes="0;0.095;0.1;0.11;0.12;1" begin="0s" dur="20s" repeatCount="indefinite"/></circle>
+      <circle cx="616" cy="160" r="6"><animate attributeName="stroke" values="#8B949E;#8B949E;#DA3633;#DA3633;#8B949E;#8B949E" keyTimes="0;0.195;0.2;0.21;0.22;1" begin="0s" dur="20s" repeatCount="indefinite"/><animate attributeName="r" values="6;6;7.25;6;6;6" keyTimes="0;0.195;0.2;0.21;0.22;1" begin="0s" dur="20s" repeatCount="indefinite"/></circle>
+      <circle cx="104" cy="200" r="6"><animate attributeName="stroke" values="#8B949E;#8B949E;#DA3633;#DA3633;#8B949E;#8B949E" keyTimes="0;0.345;0.35;0.36;0.37;1" begin="0s" dur="20s" repeatCount="indefinite"/><animate attributeName="r" values="6;6;7.25;6;6;6" keyTimes="0;0.345;0.35;0.36;0.37;1" begin="0s" dur="20s" repeatCount="indefinite"/></circle>
+      <circle cx="616" cy="200" r="6"><animate attributeName="stroke" values="#8B949E;#8B949E;#DA3633;#DA3633;#8B949E;#8B949E" keyTimes="0;0.245;0.25;0.26;0.27;1" begin="0s" dur="20s" repeatCount="indefinite"/><animate attributeName="r" values="6;6;7.25;6;6;6" keyTimes="0;0.245;0.25;0.26;0.27;1" begin="0s" dur="20s" repeatCount="indefinite"/></circle>
+      <circle cx="104" cy="240" r="6"><animate attributeName="stroke" values="#8B949E;#8B949E;#DA3633;#DA3633;#8B949E;#8B949E" keyTimes="0;0.395;0.4;0.41;0.42;1" begin="0s" dur="20s" repeatCount="indefinite"/><animate attributeName="r" values="6;6;7.25;6;6;6" keyTimes="0;0.395;0.4;0.41;0.42;1" begin="0s" dur="20s" repeatCount="indefinite"/></circle>
+      <circle cx="616" cy="240" r="6"><animate attributeName="stroke" values="#8B949E;#8B949E;#DA3633;#DA3633;#8B949E;#8B949E" keyTimes="0;0.495;0.5;0.51;0.52;1" begin="0s" dur="20s" repeatCount="indefinite"/><animate attributeName="r" values="6;6;7.25;6;6;6" keyTimes="0;0.495;0.5;0.51;0.52;1" begin="0s" dur="20s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <g class="stage-label" text-anchor="middle">
+      <text x="360" y="154">SYN<animate attributeName="fill" values="#8B949E;#8B949E;#DA3633;#DA3633;#E6EDF3;#E6EDF3" keyTimes="0;0.095;0.1;0.2;0.21;1" begin="0s" dur="20s" repeatCount="indefinite"/><animate attributeName="opacity" values=".52;.52;1;1;1;1" keyTimes="0;0.095;0.1;0.2;0.21;1" begin="0s" dur="20s" repeatCount="indefinite"/></text>
+      <text x="360" y="194">SYN / ACK<animate attributeName="fill" values="#8B949E;#8B949E;#DA3633;#DA3633;#E6EDF3;#E6EDF3" keyTimes="0;0.245;0.25;0.35;0.36;1" begin="0s" dur="20s" repeatCount="indefinite"/><animate attributeName="opacity" values=".52;.52;1;1;1;1" keyTimes="0;0.245;0.25;0.35;0.36;1" begin="0s" dur="20s" repeatCount="indefinite"/></text>
+      <text x="360" y="234">ACK<animate attributeName="fill" values="#8B949E;#8B949E;#DA3633;#DA3633;#E6EDF3;#E6EDF3" keyTimes="0;0.395;0.4;0.5;0.51;1" begin="0s" dur="20s" repeatCount="indefinite"/><animate attributeName="opacity" values=".52;.52;1;1;1;1" keyTimes="0;0.395;0.4;0.5;0.51;1" begin="0s" dur="20s" repeatCount="indefinite"/></text>
+    </g>
+    <g class="arrow">
+      <path d="M604 156l6 4-6 4"><animate attributeName="stroke" values="#8B949E;#8B949E;#DA3633;#DA3633;#8B949E;#8B949E" keyTimes="0;0.095;0.1;0.2;0.21;1" begin="0s" dur="20s" repeatCount="indefinite"/></path>
+      <path d="M116 196l-6 4 6 4"><animate attributeName="stroke" values="#8B949E;#8B949E;#DA3633;#DA3633;#8B949E;#8B949E" keyTimes="0;0.245;0.25;0.35;0.36;1" begin="0s" dur="20s" repeatCount="indefinite"/></path>
+      <path d="M604 236l6 4-6 4"><animate attributeName="stroke" values="#8B949E;#8B949E;#DA3633;#DA3633;#8B949E;#8B949E" keyTimes="0;0.395;0.4;0.5;0.51;1" begin="0s" dur="20s" repeatCount="indefinite"/></path>
+    </g>
+    <g class="packet">
+      <circle cy="160" r="4.5"><animate attributeName="cx" values="104;104;616;616" keyTimes="0;0.1;0.2;1" begin="0s" dur="20s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.095;0.105;0.195;0.2;1" begin="0s" dur="20s" repeatCount="indefinite"/></circle>
+      <circle cy="200" r="4.5"><animate attributeName="cx" values="616;616;104;104" keyTimes="0;0.25;0.35;1" begin="0s" dur="20s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.245;0.255;0.345;0.35;1" begin="0s" dur="20s" repeatCount="indefinite"/></circle>
+      <circle cy="240" r="4.5"><animate attributeName="cx" values="104;104;616;616" keyTimes="0;0.4;0.5;1" begin="0s" dur="20s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.395;0.405;0.495;0.5;1" begin="0s" dur="20s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <path class="established-line" d="M110 270H610" fill="none" stroke="#3FB950" stroke-width="2"><animate attributeName="opacity" values="0;0;.8;.8" keyTimes="0;.55;.56;1" begin="0s" dur="20s" repeatCount="indefinite"/><animate attributeName="stroke-dashoffset" values="500;500;0;0" keyTimes="0;.55;.6;1" begin="0s" dur="20s" repeatCount="indefinite"/></path>
+    <g class="endpoint-status" fill="#3FB950"><circle cx="104" cy="270" r="3.5"/><circle cx="616" cy="270" r="3.5"/><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.55;.57;1" begin="0s" dur="20s" repeatCount="indefinite"/></g>
+    <text class="established-text" x="360" y="288" text-anchor="middle" fill="#3FB950" font-size="11" letter-spacing="1">ESTABLISHED<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.56;.6;1" begin="0s" dur="20s" repeatCount="indefinite"/></text>
+
+    <path d="M28 308H692" stroke="#30363D"/>
+    <text x="28" y="334" fill="#6E7681" font-size="12" letter-spacing=".8">AVAILABLE CHANNELS</text>
+    <g class="channels">
+      <g transform="translate(28 348)"><rect class="channel-button" width="316" height="42" rx="3"/><g class="channel-icon" transform="translate(92 9) scale(.95)"><path stroke="none" d="M12 .7A11.5 11.5 0 0 0 8.36 23.1c.58.11.79-.25.79-.56v-2.2c-3.22.7-3.9-1.37-3.9-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.78 2.72 1.27 3.38.97.1-.75.4-1.27.74-1.56-2.57-.29-5.27-1.29-5.27-5.73 0-1.27.45-2.3 1.2-3.11-.12-.3-.52-1.48.11-3.08 0 0 .98-.31 3.16 1.19A10.9 10.9 0 0 1 12 6.05c.98 0 1.96.13 2.88.39 2.18-1.5 3.16-1.19 3.16-1.19.63 1.6.23 2.78.11 3.08.75.81 1.2 1.84 1.2 3.11 0 4.45-2.7 5.43-5.28 5.72.42.36.79 1.07.79 2.16v3.22c0 .31.21.68.8.56A11.5 11.5 0 0 0 12 .7Z"/></g><text class="channel-name" x="181" y="27" text-anchor="middle">GITHUB</text></g>
+      <g transform="translate(376 348)"><rect class="channel-button" width="316" height="42" rx="3"/><g class="channel-icon-outline" stroke-width="1.6" transform="translate(92 10)"><rect width="25" height="20" rx="1"/><path d="M1 2l11.5 9L24 2"/></g><text class="channel-name" x="181" y="27" text-anchor="middle">EMAIL</text></g>
+      <g transform="translate(202 402)"><rect class="channel-button" width="316" height="42" rx="3"/><g class="channel-icon" transform="translate(92 10)"><rect width="22" height="22" rx="2" fill="none" stroke-width="1.5"/><text x="11" y="17" text-anchor="middle" stroke="none" font-size="15" font-weight="700">in</text></g><text class="channel-name" x="183" y="27" text-anchor="middle">LINKEDIN</text></g>
+      <animate attributeName="opacity" values=".5;.5;1;1" keyTimes="0;.59;.6;1" begin="0s" dur="20s" repeatCount="indefinite"/>
+    </g>
+    <text class="ready" x="692" y="334" text-anchor="end" font-size="13">READY TO RECEIVE<animate attributeName="opacity" values=".38;.38;1;1" keyTimes="0;.59;.6;1" begin="0s" dur="20s" repeatCount="indefinite"/><animate attributeName="fill" values="#6E7681;#6E7681;#3FB950;#3FB950" keyTimes="0;.59;.6;1" begin="0s" dur="20s" repeatCount="indefinite"/></text>
+  </g>
+</svg>

@@ -14,7 +14,7 @@
       <rect x="1052" y="72" width="16" height="16" transform="rotate(45 1060 80)"/>
     </g>
     <g fill="#8B949E" text-anchor="middle" font-size="14">
-      <text x="140" y="116">ARBORCHIVE</text><text x="600" y="116">VEP</text><text x="1060" y="116">LIVEPI</text>
+      <text x="140" y="116">ARBORCHIVE</text><text x="600" y="116">IPI-SECURITY-VAULT</text><text x="1060" y="116">VEP</text>
     </g>
     <rect x="592" y="72" width="16" height="16" transform="rotate(45 600 80)" fill="#DA3633" stroke="#F85149"/>
   </g>

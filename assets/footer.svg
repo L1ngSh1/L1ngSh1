@@ -1,14 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="160" viewBox="0 0 1200 160" role="img" aria-labelledby="title desc">
-  <title id="title">Yuze AI Security Research footer</title>
-  <desc id="desc">A restrained closing panel for the research console.</desc>
-  <defs><style>.mono { font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace; }</style></defs>
-  <rect width="1200" height="160" rx="14" fill="#0D1117"/>
-  <rect x="1" y="1" width="1198" height="158" rx="13" fill="none" stroke="#30363D"/>
-  <path d="M38 45H350M850 45h312M38 112H350M850 112h312" stroke="#30363D"/>
-  <path d="M350 45l10 6-10 6M850 100l-10 6 10 6" fill="none" stroke="#DA3633" stroke-width="1.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">L1ngSh1 AI Security Research footer</title>
+  <desc id="desc">A restrained AI security research manifesto with four principles.</desc>
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace; }
+      .identity { fill: #E6EDF3; font-size: 22px; font-weight: 700; letter-spacing: 2.2px; }
+      .verbs { fill: #8B949E; font-size: 15px; letter-spacing: 1.8px; }
+      .manifesto { fill: #C9D1D9; font-size: 18px; font-weight: 500; }
+      .copyright { fill: #6E7681; font-size: 12px; }
+      @media (max-width: 600px) {
+        .identity { font-size: 25px; letter-spacing: 1.2px; }
+        .verbs { font-size: 19px; letter-spacing: .8px; }
+        .manifesto { font-size: 24px; }
+        .copyright { font-size: 18px; }
+        .side-lines { display: none; }
+        .side-arrows { opacity: .45; }
+      }
+    </style>
+  </defs>
+  <rect width="1200" height="280" rx="14" fill="#0D1117"/>
+  <rect x="1" y="1" width="1198" height="278" rx="13" fill="none" stroke="#30363D"/>
+  <path class="side-lines" d="M38 49H350M850 49h312" stroke="#30363D"/>
+  <path class="side-arrows" d="M350 43l10 6-10 6M850 43l-10 6 10 6" fill="none" stroke="#DA3633" stroke-width="1.5"/>
   <g class="mono" text-anchor="middle">
-    <text x="600" y="66" fill="#E6EDF3" font-size="20" font-weight="700" letter-spacing="2">YUZE / AI SECURITY RESEARCH</text>
-    <text x="600" y="98" fill="#8B949E" font-size="14" letter-spacing="1.4">BUILD · BREAK · MEASURE · REPEAT</text>
-    <text x="600" y="137" fill="#6E7681" font-size="13">© 2026 Yuze — Built as an evolving research console.</text>
+    <text class="identity" x="600" y="57">L1ngSh1 /  SECURITY RESEARCH</text>
+    <text class="verbs" x="600" y="92">EXPLORE · BREAK · UNCOVER · BUILD</text>
+    <g class="manifesto">
+      <text x="600" y="132">We explore the unknown</text>
+      <text x="600" y="161">We break assumptions</text>
+      <text x="600" y="190">We uncover the unseen</text>
+      <text x="600" y="219">We build the future</text>
+    </g>
+    <text class="copyright" x="600" y="260">© 2026 L1ngSh1 — Built as an evolving research console.</text>
   </g>
 </svg>
