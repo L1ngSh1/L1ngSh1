@@ -1,17 +1,25 @@
-# Dashboard maintenance
+# GitHub telemetry maintenance
 
-`generate_dashboard.py` builds `assets/research-dashboard.svg` from public GitHub API data. The generated card is repository-owned, contains no fabricated values, and keeps the profile layout usable when third-party stat services are unavailable.
+`generate_github_telemetry.py` builds `assets/github-telemetry.svg` entirely from GitHub's REST and GraphQL APIs. The generated card combines repository metrics, the one-year contribution calendar, activity streaks, and an account-wide repository-language donut chart without third-party stats services.
 
 ## Local update
 
 ```bash
-python3 scripts/generate_dashboard.py
+GITHUB_TOKEN="$(gh auth token)" python3 scripts/generate_github_telemetry.py
 ```
 
-The script defaults to `L1ngSh1`; set `GITHUB_USERNAME` only to render another profile. Unauthenticated requests are sufficient for occasional local runs. Set `GITHUB_TOKEN` only when needed to increase the API rate limit; never commit a token.
+The script defaults to `L1ngSh1`; set `GITHUB_USERNAME` to render another account. A token is required because contribution-calendar data is retrieved through GitHub GraphQL. The token is read from the environment and is never written to the SVG.
+
+## Data definitions
+
+- **Stars / forks:** totals across the account's public owner repositories.
+- **Total contributions:** `contributionCalendar.totalContributions` for the trailing 365-day window.
+- **Current streak:** consecutive contribution days ending today or yesterday; otherwise zero.
+- **Longest streak:** longest consecutive run in the trailing 365-day calendar.
+- **Language composition:** byte counts from each public repository's `/languages` endpoint, aggregated account-wide. The top five languages are shown; remaining languages are merged into `OTHER`.
 
 ## Automated update
 
-`.github/workflows/update-dashboard.yml` runs once per day and on manual dispatch. It uses the repository owner as `GITHUB_USERNAME`, generates the SVG, and commits only when metrics changed.
+`.github/workflows/update-github-telemetry.yml` runs at `00:00` and `12:00` UTC and supports `workflow_dispatch`. It uses the repository owner as `GITHUB_USERNAME`. The generator avoids rewriting identical content, and the workflow commits only when `assets/github-telemetry.svg` has a real diff.
 
-The workflow needs `contents: write`. If the repository restricts workflow write access, enable it under **Settings → Actions → General → Workflow permissions** or run the script locally.
+The workflow requires `contents: write` permission.

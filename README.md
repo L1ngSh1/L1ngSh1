@@ -42,15 +42,9 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
 
 ### GitHub Telemetry
 
-<!-- The local dashboard is refreshed daily by .github/workflows/update-dashboard.yml. -->
+<!-- Auto-generated every 12 hours by .github/workflows/update-github-telemetry.yml. -->
 
-<div align="center">
-
-[![GitHub telemetry dashboard](assets/research-dashboard.svg)](https://github.com/L1ngSh1)
-
-[![GitHub contribution streak](https://streak-stats.demolab.com?user=L1ngSh1&theme=github-dark-blue&hide_border=true&background=0D1117&ring=D29922&fire=DA3633&currStreakLabel=E6EDF3&sideLabels=8B949E&dates=8B949E)](https://github.com/L1ngSh1)
-
-</div>
+![GitHub Telemetry](assets/github-telemetry.svg)
 
 ![Research node divider](assets/divider.svg)
 
@@ -150,12 +144,12 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
   <img src="assets/contact.svg" alt="TCP three-way handshake contact panel" width="100%">
 </picture>
 
-<div align="center">
-
-[![GitHub profile](https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge&logo=github&logoColor=E6EDF3)](https://github.com/L1ngSh1)
-[![Email L1ngSh1](https://img.shields.io/badge/EMAIL-0D1117?style=for-the-badge&logo=protonmail&logoColor=E6EDF3)](mailto:y4n9yuz3@gmail.com)
-[![LinkedIn profile](https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=E6EDF3)](https://www.linkedin.com/in/yuze-yang-9a548a3b3/)
-
-</div>
+<p align="center">
+  <a href="https://github.com/L1ngSh1"><img src="https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge&amp;logo=github&amp;logoColor=E6EDF3" height="42" alt="GitHub profile"></a>
+  &nbsp;&nbsp;
+  <a href="mailto:y4n9yuz3@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0D1117?style=for-the-badge&amp;logo=protonmail&amp;logoColor=E6EDF3" height="42" alt="Email L1ngSh1"></a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/yuze-yang-9a548a3b3/"><img src="https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&amp;logo=linkedin&amp;logoColor=E6EDF3" height="42" alt="LinkedIn profile"></a>
+</p>
 
 ![L1ngSh1 research console footer](assets/footer.svg)
