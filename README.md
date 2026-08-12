@@ -145,12 +145,13 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
   <img src="assets/contact.svg" alt="TCP three-way handshake contact panel" width="100%">
 </picture>
 
+<!-- LinkedIn uses a Shields custom-logo data URI because Simple Icons removed the named icon in v14. -->
 <p align="center">
   <a href="https://github.com/L1ngSh1"><img src="https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge&amp;logo=github&amp;logoColor=E6EDF3" height="42" alt="GitHub profile"></a>
   &nbsp;&nbsp;
   <a href="mailto:y4n9yuz3@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0D1117?style=for-the-badge&amp;logo=protonmail&amp;logoColor=E6EDF3" height="42" alt="Email L1ngSh1"></a>
   &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/yuze-yang-9a548a3b3/"><img src="assets/linkedin-badge-gray.svg" height="42" alt="LinkedIn profile"></a>
+  <a href="https://www.linkedin.com/in/yuze-yang-9a548a3b3/"><img src="https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGNpcmNsZSBjeD0iNCIgY3k9IjQiIHI9IjIuMyIgZmlsbD0iI2U2ZWRmMyIvPjxwYXRoIGZpbGw9IiNlNmVkZjMiIGQ9Ik0xLjUgOGg1djE0aC01ek05IDhoNC44djJjMS4zLTEuNyAzLTIuNSA0LjktMi41IDQuMSAwIDYuMyAyLjYgNi4zIDcuMlYyMmgtNXYtNi44YzAtMi41LS45LTMuNy0yLjgtMy43LTIuMyAwLTMuMyAxLjYtMy4zIDQuMlYyMkg5eiIvPjwvc3ZnPg%3D%3D" height="42" alt="LinkedIn profile"></a>
 </p>
 
 ![L1ngSh1 research console footer](assets/footer.svg)
