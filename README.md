@@ -150,7 +150,7 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
   &nbsp;&nbsp;
   <a href="mailto:y4n9yuz3@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0D1117?style=for-the-badge&amp;logo=protonmail&amp;logoColor=E6EDF3" height="42" alt="Email L1ngSh1"></a>
   &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/yuze-yang-9a548a3b3/"><img src="assets/linkedin-badge.svg" height="42" alt="LinkedIn profile"></a>
+  <a href="https://www.linkedin.com/in/yuze-yang-9a548a3b3/"><img src="assets/linkedin-badge-gray.svg" height="42" alt="LinkedIn profile"></a>
 </p>
 
 ![L1ngSh1 research console footer](assets/footer.svg)

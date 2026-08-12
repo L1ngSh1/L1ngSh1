@@ -15,10 +15,12 @@ SPEC.loader.exec_module(telemetry)
 
 class TelemetryTests(unittest.TestCase):
     def test_linkedin_badge_uses_aligned_gray_icon(self):
-        badge_path = MODULE_PATH.parents[1] / "assets" / "linkedin-badge.svg"
+        badge_path = MODULE_PATH.parents[1] / "assets" / "linkedin-badge-gray.svg"
         badge = badge_path.read_text()
-        self.assertIn('transform="translate(27 21) scale(1.75)"', badge)
+        self.assertIn('<g aria-hidden="true" fill="#E6EDF3">', badge)
+        self.assertIn('<circle cx="35" cy="30" r="4.5"/>', badge)
         self.assertIn('<text x="196.5" y="53" text-anchor="middle"', badge)
+        self.assertNotIn('transform="translate(27 21) scale(1.75)"', badge)
         self.assertNotIn("#0A66C2", badge)
 
     def test_languages_keep_top_five_and_merge_other(self):

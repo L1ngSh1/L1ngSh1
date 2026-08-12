@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="333" height="84" viewBox="0 0 333 84" role="img" aria-labelledby="title desc">
+  <title id="title">LinkedIn profile</title>
+  <desc id="desc">LinkedIn badge with a gray LinkedIn symbol aligned on the left.</desc>
+  <rect width="333" height="84" fill="#0D1117"/>
+  <g aria-hidden="true" fill="#E6EDF3">
+    <circle cx="35" cy="30" r="4.5"/>
+    <path d="M30.5 38h8v25h-8zM44 38h7.5v3.3c2.1-2.8 5-4.2 8.3-4.2C66.8 37.1 71 41.5 71 50v13h-8V50.8c0-4.4-1.7-6.7-5.1-6.7-4 0-6.1 2.8-6.1 7.6V63H44z"/>
+  </g>
+  <text x="196.5" y="53" text-anchor="middle" fill="#E6EDF3" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="30" font-weight="700" textLength="201">LINKEDIN</text>
+</svg>
