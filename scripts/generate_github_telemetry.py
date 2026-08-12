@@ -188,22 +188,20 @@ def escaped(value: object) -> str:
     return html.escape(str(value), quote=True)
 
 
-def donut_markup(languages: list[tuple[str, int]]) -> tuple[str, str]:
+def pie_markup(languages: list[tuple[str, int]]) -> tuple[str, str]:
     if not languages:
         return "", '<text x="282" y="336" fill="#8B949E" font-size="13">NO LANGUAGE DATA</text>'
 
     total = sum(count for _, count in languages)
     percentages = integer_percentages([count for _, count in languages])
-    radius = 70
-    circumference = 2 * math.pi * radius
-    offset = 0.0
+    radius = 72
+    start_angle = -math.pi / 2
     reserved_colors = {LANGUAGE_COLORS[name] for name, _ in languages if name in LANGUAGE_COLORS}
     used_colors: set[str] = set()
     segments: list[str] = []
     legends: list[str] = []
     for index, ((language, count), percentage) in enumerate(zip(languages, percentages)):
         fraction = count / total
-        length = max(0.0, circumference * fraction - 3.0)
         color = LANGUAGE_COLORS.get(language)
         if color is None or color in used_colors:
             color = next(
@@ -211,11 +209,20 @@ def donut_markup(languages: list[tuple[str, int]]) -> tuple[str, str]:
                 if candidate not in used_colors and candidate not in reserved_colors
             )
         used_colors.add(color)
-        segments.append(
-            f'<circle cx="160" cy="326" r="{radius}" fill="none" stroke="{color}" stroke-width="24" '
-            f'stroke-linecap="butt" stroke-dasharray="{length:.2f} {circumference - length:.2f}" '
-            f'stroke-dashoffset="{-offset:.2f}" transform="rotate(-90 160 326)"/>'
-        )
+        end_angle = start_angle + 2 * math.pi * fraction
+        if fraction >= 0.999999:
+            segments.append(f'<circle cx="160" cy="326" r="{radius}" fill="{color}"/>')
+        else:
+            start_x = 160 + radius * math.cos(start_angle)
+            start_y = 326 + radius * math.sin(start_angle)
+            end_x = 160 + radius * math.cos(end_angle)
+            end_y = 326 + radius * math.sin(end_angle)
+            large_arc = 1 if fraction > 0.5 else 0
+            segments.append(
+                f'<path d="M160 326 L{start_x:.2f} {start_y:.2f} '
+                f'A{radius} {radius} 0 {large_arc} 1 {end_x:.2f} {end_y:.2f} Z" '
+                f'fill="{color}" stroke="#0D1117" stroke-width="1.5" stroke-linejoin="round"/>'
+            )
         column = index % 2
         row = index // 2
         x = 284 + column * 150
@@ -225,7 +232,7 @@ def donut_markup(languages: list[tuple[str, int]]) -> tuple[str, str]:
             f'<text x="{x + 12}" y="{y}" fill="#8B949E" font-size="13">'
             f'{escaped(language)} <tspan fill="#E6EDF3">{percentage}%</tspan></text>'
         )
-        offset += circumference * fraction
+        start_angle = end_angle
     return "".join(segments), "".join(legends)
 
 
@@ -239,7 +246,7 @@ def build_svg(
     stars = sum(int(repo.get("stargazers_count", 0) or 0) for repo in repositories)
     forks = sum(int(repo.get("forks_count", 0) or 0) for repo in repositories)
     languages = collapse_languages(language_bytes)
-    donut, legend = donut_markup(languages)
+    pie, legend = pie_markup(languages)
     login = escaped(profile.get("login") or username)
     metrics = [
         ("PUBLIC REPOS", int(profile.get("public_repos", 0) or 0)),
@@ -285,10 +292,8 @@ def build_svg(
 
     <rect x="32" y="210" width="548" height="228" rx="8" fill="none" stroke="#30363D"/>
     <text x="54" y="242" fill="#8B949E" font-size="13" letter-spacing=".7">LANGUAGE COMPOSITION</text>
-    <circle cx="160" cy="326" r="70" fill="none" stroke="#30363D" stroke-width="24"/>
-    {donut}
-    <text x="160" y="322" text-anchor="middle" fill="#8B949E" font-size="10" letter-spacing=".7">REPOSITORY</text>
-    <text x="160" y="339" text-anchor="middle" fill="#E6EDF3" font-size="12" font-weight="700" letter-spacing=".9">LANGUAGES</text>
+    <circle cx="160" cy="326" r="72" fill="#30363D"/>
+    {pie}
     {legend}
 
     <rect x="604" y="210" width="564" height="228" rx="8" fill="none" stroke="#30363D"/>

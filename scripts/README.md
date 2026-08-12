@@ -1,6 +1,6 @@
 # GitHub telemetry maintenance
 
-`generate_github_telemetry.py` builds `assets/github-telemetry.svg` entirely from GitHub's REST and GraphQL APIs. The generated card combines repository metrics, the one-year contribution calendar, activity streaks, and an account-wide repository-language donut chart without third-party stats services.
+`generate_github_telemetry.py` builds `assets/github-telemetry.svg` entirely from GitHub's REST and GraphQL APIs. The generated card combines repository metrics, the one-year contribution calendar, activity streaks, and an account-wide repository-language pie chart without third-party stats services.
 
 ## Local update
 

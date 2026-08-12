@@ -84,10 +84,11 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
 ![Security Evaluation](https://img.shields.io/badge/Security_Evaluation-161B22?style=flat-square&logo=checkmarx&logoColor=54B848)
 ![Reproducible Experiments](https://img.shields.io/badge/Reproducible_Experiments-161B22?style=flat-square&logo=pytest&logoColor=0A9EDC)
 
-![Featured systems console](assets/projects.svg)
+![Research node divider](assets/divider.svg)
 
 ### Featured Systems
 
+![Featured systems console](assets/projects.svg)
 
 #### [`01 / Vuln-Eval-Platform`](https://github.com/L1ngSh1/Vuln-Eval-Platform)
 
@@ -95,7 +96,7 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
 
 `Security Evaluation` · `Benchmark` · `Vulnerability Detection`
 
----
+
 
 #### [`02 / Arborchive`](https://github.com/L1ngSh1/Arborchive)
 
@@ -103,7 +104,7 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
 
 `C++` · `Clang` · `LLVM` · `AST` · `Program Analysis`
 
----
+
 
 #### [`03 / IPI-Security-Vault`](https://github.com/L1ngSh1/IPI-Security-Vault)
 
@@ -111,7 +112,7 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
 
 `Agent Security` · `Prompt Injection` · `Docker` · `Android`
 
----
+
 
 #### More Systems
 
@@ -149,7 +150,7 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
   &nbsp;&nbsp;
   <a href="mailto:y4n9yuz3@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0D1117?style=for-the-badge&amp;logo=protonmail&amp;logoColor=E6EDF3" height="42" alt="Email L1ngSh1"></a>
   &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/yuze-yang-9a548a3b3/"><img src="https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&amp;logo=linkedin&amp;logoColor=E6EDF3" height="42" alt="LinkedIn profile"></a>
+  <a href="https://www.linkedin.com/in/yuze-yang-9a548a3b3/"><img src="assets/linkedin-badge.svg" height="42" alt="LinkedIn profile"></a>
 </p>
 
 ![L1ngSh1 research console footer](assets/footer.svg)

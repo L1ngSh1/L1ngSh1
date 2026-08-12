@@ -14,6 +14,13 @@ SPEC.loader.exec_module(telemetry)
 
 
 class TelemetryTests(unittest.TestCase):
+    def test_linkedin_badge_uses_aligned_gray_icon(self):
+        badge_path = MODULE_PATH.parents[1] / "assets" / "linkedin-badge.svg"
+        badge = badge_path.read_text()
+        self.assertIn('transform="translate(27 21) scale(1.75)"', badge)
+        self.assertIn('<text x="196.5" y="53" text-anchor="middle"', badge)
+        self.assertNotIn("#0A66C2", badge)
+
     def test_languages_keep_top_five_and_merge_other(self):
         values = Counter({"Python": 60, "Java": 20, "HTML": 10, "C++": 5, "Shell": 3, "CSS": 1, "Go": 1})
         self.assertEqual(
@@ -36,17 +43,20 @@ class TelemetryTests(unittest.TestCase):
         days = [{"date": "2026-08-01", "contributionCount": 1}]
         self.assertEqual(telemetry.calculate_streaks(days, date(2026, 8, 11)), (0, 1, "Aug 1"))
 
-    def test_svg_contains_unified_metrics_and_donut(self):
+    def test_svg_contains_unified_metrics_and_pie_chart(self):
         profile = {"login": "L1ngSh1", "public_repos": 8, "followers": 8}
         repos = [{"stargazers_count": 5, "forks_count": 1}]
         stats = telemetry.ContributionStats(395, 1, 6, "Aug 10")
         svg = telemetry.build_svg("L1ngSh1", profile, repos, Counter({"Python": 67, "Java": 17, "HTML": 16}), stats)
         self.assertIn("TOTAL CONTRIBUTIONS", svg)
         self.assertIn("ACTIVITY STREAK", svg)
-        self.assertIn("stroke-dasharray", svg)
-        self.assertIn('stroke="#DA3633"', svg)
-        self.assertIn('stroke="#D29922"', svg)
-        self.assertIn('stroke="#3FB950"', svg)
+        self.assertIn('<path d="M160 326 L', svg)
+        self.assertIn('fill="#DA3633" stroke="#0D1117"', svg)
+        self.assertIn('fill="#D29922" stroke="#0D1117"', svg)
+        self.assertIn('fill="#3FB950" stroke="#0D1117"', svg)
+        self.assertNotIn("stroke-dasharray", svg)
+        self.assertNotIn(">REPOSITORY</text>", svg)
+        self.assertNotIn(">LANGUAGES</text>", svg)
         self.assertNotIn("streak-stats", svg)
 
 
