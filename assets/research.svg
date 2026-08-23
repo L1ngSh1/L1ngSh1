@@ -10,22 +10,22 @@
       .label { fill: #8B949E; }
       .label-active { fill: #C9D1D9; }
       .active-halo { fill: none; stroke: #DA3633; stroke-width: 1; stroke-dasharray: 3 7; stroke-opacity: .34; }
-      .active-status { fill: #3FB950; font-size: 10px; letter-spacing: 1.2px; }
+      .active-status { fill: #3FB950; font-size: 12px; letter-spacing: 1px; }
     </style>
   </defs>
   <rect width="1200" height="180" rx="14" fill="#0D1117"/>
   <rect x="1" y="1" width="1198" height="178" rx="13" fill="none" stroke="#30363D"/>
   <g class="mono">
-    <text x="28" y="32" fill="#8B949E" font-size="14" letter-spacing=".8">RESEARCH SURFACE / LIVE TRACE</text>
-    <text x="1172" y="32" text-anchor="end" fill="#3FB950" font-size="14">4 NODES ONLINE</text>
+    <text x="28" y="32" fill="#8B949E" font-size="16" letter-spacing=".7">RESEARCH SURFACE / LIVE TRACE</text>
+    <text x="1172" y="32" text-anchor="end" fill="#3FB950" font-size="16">4 NODES ONLINE</text>
     <path class="connector" d="M126 91H390M458 91H722M790 91H1054"/>
     <g class="node">
       <circle class="node-active" cx="92" cy="91" r="34"/><circle cx="424" cy="91" r="34"/><circle cx="756" cy="91" r="34"/><circle class="node-active" cx="1088" cy="91" r="34"/>
     </g>
-    <g fill="#E6EDF3" text-anchor="middle" font-size="16" font-weight="700">
+    <g fill="#E6EDF3" text-anchor="middle" font-size="18" font-weight="700">
       <text x="92" y="96">01</text><text x="424" y="96">02</text><text x="756" y="96">03</text><text x="1088" y="96">04</text>
     </g>
-    <g class="label" text-anchor="middle" font-size="14" letter-spacing=".4">
+    <g class="label" text-anchor="middle" font-size="16" letter-spacing=".25">
       <text class="label-active" x="92" y="148">AGENT SECURITY</text><text x="424" y="148">PROGRAM ANALYSIS</text><text x="756" y="148">EVALUATION</text><text class="label-active" x="1088" y="148">OFFENSIVE SECURITY</text>
     </g>
     <g class="active-status" text-anchor="middle">

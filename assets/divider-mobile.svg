@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="64" viewBox="0 0 720 64" role="img" aria-labelledby="title desc">
+  <title id="title">Research node status divider</title><desc id="desc">A research node is connected to an active node.</desc>
+  <defs><style>.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace}.packet{animation:move 5s linear infinite}@keyframes move{0%{opacity:0;transform:translateX(0)}10%{opacity:1}70%{opacity:1;transform:translateX(320px)}71%,100%{opacity:0;transform:translateX(320px)}}@media(prefers-reduced-motion:reduce){.packet{display:none}}</style></defs>
+  <text class="mono" x="12" y="39" fill="#8B949E" font-size="18">[ NODE ]</text><line x1="138" y1="32" x2="546" y2="32" stroke="#8B949E" opacity=".58"/><circle cx="138" cy="32" r="6" fill="#DA3633"/><circle class="packet" cx="138" cy="32" r="5" fill="#D29922" opacity="0"/><circle cx="546" cy="32" r="6" fill="#3FB950"/><text class="mono" x="566" y="39" fill="#8B949E" font-size="18">ACTIVE</text>
+</svg>

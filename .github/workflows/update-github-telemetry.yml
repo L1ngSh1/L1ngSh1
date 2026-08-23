@@ -35,13 +35,13 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if git diff --quiet -- assets/github-telemetry.svg; then
+          if git diff --quiet -- assets/github-telemetry.svg assets/github-telemetry-mobile.svg; then
             echo "GitHub telemetry data is unchanged."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- assets/github-telemetry.svg
+          git add -- assets/github-telemetry.svg assets/github-telemetry-mobile.svg
           git commit -m "chore: update GitHub telemetry"
           git push

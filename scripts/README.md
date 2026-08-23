@@ -1,6 +1,6 @@
 # GitHub telemetry maintenance
 
-`generate_github_telemetry.py` builds `assets/github-telemetry.svg` entirely from GitHub's REST and GraphQL APIs. The generated card combines repository metrics, the one-year contribution calendar, activity streaks, and an account-wide repository-language pie chart without third-party stats services.
+`generate_github_telemetry.py` builds the responsive pair `assets/github-telemetry.svg` and `assets/github-telemetry-mobile.svg` entirely from GitHub's REST and GraphQL APIs. The desktop card combines repository metrics, activity streaks, and an account-wide repository-language pie chart; the mobile card presents the same data in a legible vertical layout without third-party stats services.
 
 ## Local update
 
@@ -20,6 +20,6 @@ The script defaults to `L1ngSh1`; set `GITHUB_USERNAME` to render another accoun
 
 ## Automated update
 
-`.github/workflows/update-github-telemetry.yml` runs at `00:00` and `12:00` UTC and supports `workflow_dispatch`. It uses the repository owner as `GITHUB_USERNAME`. The generator avoids rewriting identical content, and the workflow commits only when `assets/github-telemetry.svg` has a real diff.
+`.github/workflows/update-github-telemetry.yml` runs at `00:00` and `12:00` UTC and supports `workflow_dispatch`. It uses the repository owner as `GITHUB_USERNAME`. The generator avoids rewriting identical content, and the workflow commits only when either responsive telemetry asset has a real diff.
 
 The workflow requires `contents: write` permission.

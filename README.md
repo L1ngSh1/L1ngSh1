@@ -1,12 +1,18 @@
 <div align="center">
 
-![L1ngSh1 — AI Security Researcher](assets/header.svg)
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/header-mobile.svg">
+  <img src="assets/header.svg" alt="L1ngSh1 — AI Security Researcher" width="100%">
+</picture>
 
 [![Typing introduction](https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=17&duration=3800&pause=1200&color=8B949E&center=true&vCenter=true&repeat=true&width=760&height=42&lines=AI+Security+Researcher;Breaking+agents+to+build+safer+systems;Exploring+indirect+prompt+injection;Building+program-analysis+tools;Automating+vulnerability+discovery;Training+for+offensive+security)](https://git.io/typing-svg)
 
 </div>
 
-![Research node divider](assets/divider.svg)
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/divider-mobile.svg">
+  <img src="assets/divider.svg" alt="Research node divider" width="100%">
+</picture>
 
 ### `$ whoami`
 
@@ -22,7 +28,10 @@ status   : LEARNING · BUILDING · BREAKING
 
 I build security tools, reproduce research systems, and study how intelligent agents fail under adversarial conditions.
 
-![Research console](assets/research.svg)
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/research-mobile.svg">
+  <img src="assets/research.svg" alt="Research console" width="100%">
+</picture>
 
 ### Current Research
 
@@ -38,15 +47,24 @@ Reproducible benchmarks and metrics for security tools and automated vulnerabili
 **04 — Offensive Security**<br>
 Practical red-team skills grounded in real attack surfaces and defensible research questions.
 
-![Research node divider](assets/divider.svg)
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/divider-mobile.svg">
+  <img src="assets/divider.svg" alt="Research node divider" width="100%">
+</picture>
 
 ### GitHub Telemetry
 
 <!-- Auto-generated every 12 hours by .github/workflows/update-github-telemetry.yml. -->
 
-![GitHub Telemetry](assets/github-telemetry.svg)
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/github-telemetry-mobile.svg">
+  <img src="assets/github-telemetry.svg" alt="GitHub Telemetry" width="100%">
+</picture>
 
-![Research node divider](assets/divider.svg)
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/divider-mobile.svg">
+  <img src="assets/divider.svg" alt="Research node divider" width="100%">
+</picture>
 
 ### Security & Engineering Stack
 
@@ -84,11 +102,17 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
 ![Security Evaluation](https://img.shields.io/badge/Security_Evaluation-161B22?style=flat-square&logo=checkmarx&logoColor=54B848)
 ![Reproducible Experiments](https://img.shields.io/badge/Reproducible_Experiments-161B22?style=flat-square&logo=pytest&logoColor=0A9EDC)
 
-![Research node divider](assets/divider.svg)
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/divider-mobile.svg">
+  <img src="assets/divider.svg" alt="Research node divider" width="100%">
+</picture>
 
 ### Featured Systems
 
-![Featured systems console](assets/projects.svg)
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/projects-mobile.svg">
+  <img src="assets/projects.svg" alt="Featured systems console" width="100%">
+</picture>
 
 #### [`01 / Vuln-Eval-Platform`](https://github.com/L1ngSh1/Vuln-Eval-Platform)
 
@@ -120,7 +144,10 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
 
 - [`netwatch-cli`](https://github.com/L1ngSh1/netwatch-cli) — lightweight network and system inspection for security-engineering workflows.
 
-![Research node divider](assets/divider.svg)
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/divider-mobile.svg">
+  <img src="assets/divider.svg" alt="Research node divider" width="100%">
+</picture>
 
 ### Research Log
 
@@ -154,4 +181,7 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
   <a href="https://www.linkedin.com/in/yuze-yang-9a548a3b3/"><img src="https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGNpcmNsZSBjeD0iNCIgY3k9IjQiIHI9IjIuMyIgZmlsbD0iI2U2ZWRmMyIvPjxwYXRoIGZpbGw9IiNlNmVkZjMiIGQ9Ik0xLjUgOGg1djE0aC01ek05IDhoNC44djJjMS4zLTEuNyAzLTIuNSA0LjktMi41IDQuMSAwIDYuMyAyLjYgNi4zIDcuMlYyMmgtNXYtNi44YzAtMi41LS45LTMuNy0yLjgtMy43LTIuMyAwLTMuMyAxLjYtMy4zIDQuMlYyMkg5eiIvPjwvc3ZnPg%3D%3D" height="42" alt="LinkedIn profile"></a>
 </p>
 
-![L1ngSh1 research console footer](assets/footer.svg)
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/footer-mobile.svg">
+  <img src="assets/footer.svg" alt="L1ngSh1 research console footer" width="100%">
+</picture>

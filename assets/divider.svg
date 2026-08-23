@@ -72,11 +72,11 @@
     </style>
   </defs>
 
-  <text class="mono" x="16" y="31" fill="#8B949E" font-size="13" letter-spacing=".8">[ RESEARCH NODE ]</text>
+  <text class="mono" x="16" y="31" fill="#8B949E" font-size="15" letter-spacing=".7">[ RESEARCH NODE ]</text>
   <line x1="190" y1="26" x2="1080" y2="26" stroke="#8B949E" stroke-width="1" opacity=".58"/>
   <circle class="research-node" cx="190" cy="26" r="4.5" fill="#DA3633"/>
   <circle class="packet-out" cx="190" cy="26" r="3.5" fill="#D29922" opacity="0"/>
   <circle class="packet-back" cx="1080" cy="26" r="3.5" fill="#D29922" opacity="0"/>
   <circle class="active-node" cx="1080" cy="26" r="4.5" fill="#3FB950"/>
-  <text class="mono" x="1096" y="31" fill="#8B949E" font-size="13" letter-spacing=".8">ACTIVE</text>
+  <text class="mono" x="1096" y="31" fill="#8B949E" font-size="15" letter-spacing=".7">ACTIVE</text>
 </svg>

@@ -5,15 +5,15 @@
   <rect width="1200" height="140" rx="14" fill="#0D1117"/>
   <rect x="1" y="1" width="1198" height="138" rx="13" fill="none" stroke="#30363D"/>
   <g class="mono">
-    <text x="28" y="31" fill="#8B949E" font-size="14" letter-spacing=".8">SYSTEM INDEX / FLAGSHIP BUILDS</text>
-    <text x="1172" y="31" text-anchor="end" fill="#D29922" font-size="14">03 SYSTEMS</text>
+    <text x="28" y="31" fill="#8B949E" font-size="16" letter-spacing=".7">SYSTEM INDEX / FLAGSHIP BUILDS</text>
+    <text x="1172" y="31" text-anchor="end" fill="#D29922" font-size="16">03 SYSTEMS</text>
     <path d="M140 80H1060" stroke="#30363D" stroke-width="2"/>
     <g fill="#0D1117" stroke="#8B949E" stroke-width="2">
       <rect x="132" y="72" width="16" height="16" transform="rotate(45 140 80)"/>
       <rect x="592" y="72" width="16" height="16" transform="rotate(45 600 80)"/>
       <rect x="1052" y="72" width="16" height="16" transform="rotate(45 1060 80)"/>
     </g>
-    <g fill="#8B949E" text-anchor="middle" font-size="14">
+    <g fill="#8B949E" text-anchor="middle" font-size="17">
       <text x="140" y="116">ARBORCHIVE</text><text x="600" y="116">IPI-SECURITY-VAULT</text><text x="1060" y="116">VEP</text>
     </g>
     <rect x="592" y="72" width="16" height="16" transform="rotate(45 600 80)" fill="#DA3633" stroke="#F85149"/>

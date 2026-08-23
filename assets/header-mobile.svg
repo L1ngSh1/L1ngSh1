@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" role="img" aria-labelledby="title desc">
+  <title id="title">L1ngSh1 — Security Researcher</title>
+  <desc id="desc">A compact mobile version of the desktop research console, preserving the original identity and attack-surface layout.</desc>
+  <defs>
+    <style>
+      .display{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace}.surface-line{fill:none;stroke:#30363D;stroke-width:1.4}.surface-node{fill:#0D1117;stroke:#8B949E;stroke-width:1.2}.surface-core{stroke:#D29922}.surface-label{fill:#8B949E;font-size:10px;letter-spacing:.5px}.surface-label-core{fill:#D29922}.signal-dot{fill:#D29922}
+      @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#30363D" opacity=".38"/></pattern>
+    <linearGradient id="fade" x1="0" x2="1"><stop stop-color="#0D1117"/><stop offset=".64" stop-color="#11161D"/><stop offset="1" stop-color="#161B22"/></linearGradient>
+  </defs>
+  <rect width="720" height="300" rx="16" fill="url(#fade)"/><rect x="1" y="1" width="718" height="298" rx="15" fill="none" stroke="#30363D"/><rect width="720" height="300" rx="16" fill="url(#grid)" opacity=".5"/>
+  <path d="M0 52H720M0 256H720M558 52V256" stroke="#30363D"/>
+  <g class="surface-line"><path d="M640 99V139M600 150H630M650 150H680M640 161V201"/></g>
+  <g class="surface-node">
+    <circle cx="640" cy="93" r="5"><animate attributeName="r" values="5;5;7;7;5;5" keyTimes="0;.34;.36;.47;.56;1" dur="3.2s" repeatCount="indefinite"/><animate attributeName="stroke" values="#8B949E;#8B949E;#D29922;#3FB950;#8B949E;#8B949E" keyTimes="0;.34;.36;.47;.56;1" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="594" cy="150" r="5"><animate attributeName="r" values="5;5;7;7;5;5" keyTimes="0;.34;.36;.47;.56;1" dur="3.2s" repeatCount="indefinite"/><animate attributeName="stroke" values="#8B949E;#8B949E;#D29922;#3FB950;#8B949E;#8B949E" keyTimes="0;.34;.36;.47;.56;1" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle class="surface-core" cx="640" cy="150" r="6"><animate attributeName="r" values="6;8;6;6;8;6;6" keyTimes="0;.10;.17;.45;.50;.58;1" dur="3.2s" repeatCount="indefinite"/><animate attributeName="stroke" values="#D29922;#D29922;#D29922;#D29922;#3FB950;#D29922;#D29922" keyTimes="0;.10;.17;.45;.50;.58;1" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="686" cy="150" r="5"><animate attributeName="r" values="5;5;7;7;5;5" keyTimes="0;.34;.36;.47;.56;1" dur="3.2s" repeatCount="indefinite"/><animate attributeName="stroke" values="#8B949E;#8B949E;#D29922;#3FB950;#8B949E;#8B949E" keyTimes="0;.34;.36;.47;.56;1" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="640" cy="207" r="5"><animate attributeName="r" values="5;5;7;7;5;5" keyTimes="0;.34;.36;.47;.56;1" dur="3.2s" repeatCount="indefinite"/><animate attributeName="stroke" values="#8B949E;#8B949E;#D29922;#3FB950;#8B949E;#8B949E" keyTimes="0;.34;.36;.47;.56;1" dur="3.2s" repeatCount="indefinite"/></circle>
+  </g>
+  <g class="signal-dot" aria-hidden="true">
+    <circle r="2.5"><animateMotion path="M640 150L640 93" keyPoints="0;0;1;1;0;0" keyTimes="0;.12;.35;.48;.72;1" dur="3.2s" repeatCount="indefinite"/><animate attributeName="fill" values="#D29922;#D29922;#D29922;#3FB950;#3FB950" keyTimes="0;.35;.47;.48;1" calcMode="discrete" dur="3.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;1;0;0" keyTimes="0;.12;.35;.70;.74;1" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle r="2.5"><animateMotion path="M640 150L594 150" keyPoints="0;0;1;1;0;0" keyTimes="0;.12;.35;.48;.72;1" dur="3.2s" repeatCount="indefinite"/><animate attributeName="fill" values="#D29922;#D29922;#D29922;#3FB950;#3FB950" keyTimes="0;.35;.47;.48;1" calcMode="discrete" dur="3.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;1;0;0" keyTimes="0;.12;.35;.70;.74;1" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle r="2.5"><animateMotion path="M640 150L686 150" keyPoints="0;0;1;1;0;0" keyTimes="0;.12;.35;.48;.72;1" dur="3.2s" repeatCount="indefinite"/><animate attributeName="fill" values="#D29922;#D29922;#D29922;#3FB950;#3FB950" keyTimes="0;.35;.47;.48;1" calcMode="discrete" dur="3.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;1;0;0" keyTimes="0;.12;.35;.70;.74;1" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle r="2.5"><animateMotion path="M640 150L640 207" keyPoints="0;0;1;1;0;0" keyTimes="0;.12;.35;.48;.72;1" dur="3.2s" repeatCount="indefinite"/><animate attributeName="fill" values="#D29922;#D29922;#D29922;#3FB950;#3FB950" keyTimes="0;.35;.47;.48;1" calcMode="discrete" dur="3.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;1;0;0" keyTimes="0;.12;.35;.70;.74;1" dur="3.2s" repeatCount="indefinite"/></circle>
+  </g>
+  <g class="mono surface-label" text-anchor="middle"><text x="640" y="81">WEB</text><text x="594" y="137">API</text><text class="surface-label-core" x="640" y="137">CORE</text><text x="686" y="137">TOOL</text><text x="640" y="226">MEMORY</text></g>
+  <g class="mono" font-size="11" letter-spacing=".45"><text x="24" y="33" fill="#8B949E">RESEARCH CONSOLE / IDENTITY NODE</text><text x="696" y="33" text-anchor="end"><tspan fill="#D29922">ATTACK</tspan><tspan fill="#E6EDF3"> SURFACE / 01</tspan></text><text x="24" y="281" fill="#3FB950">● RESEARCH IN PROGRESS</text><text x="696" y="281" text-anchor="end" fill="#8B949E">TRACE 0x59A · ONLINE</text></g>
+  <text class="display" x="40" y="130" fill="#E6EDF3" font-size="52" font-weight="700" letter-spacing="4.5">L1ngSh1</text>
+  <rect x="42" y="148" width="42" height="3" fill="#DA3633"/>
+  <text class="display" x="42" y="180" fill="#E6EDF3" font-size="19" font-weight="650" letter-spacing="1.8">SECURITY RESEARCHER</text>
+  <text class="mono" x="42" y="214" fill="#8B949E" font-size="12.5" letter-spacing=".3">AGENT SECURITY · PROGRAM ANALYSIS · VULNERABILITY RESEARCH</text>
+  <g stroke="#D29922" fill="none" opacity=".38"><path d="M574 70h-8v8M706 70h8v8M574 235h-8v-8M706 235h8v-8"/></g>
+</svg>

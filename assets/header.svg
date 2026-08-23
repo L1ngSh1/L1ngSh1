@@ -9,7 +9,7 @@
       .surface-node { fill: #0D1117; stroke: #8B949E; stroke-width: 1.25; }
       .surface-core { stroke: #D29922; }
       .signal-dot { fill: #D29922; }
-      .surface-label { fill: #8B949E; font-size: 12px; letter-spacing: .9px; }
+      .surface-label { fill: #8B949E; font-size: 15px; letter-spacing: .8px; }
       .surface-label-core { fill: #D29922; }
     </style>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
@@ -80,7 +80,7 @@
     <text x="1120" y="148">TOOL</text>
     <text x="1050" y="248">MEMORY</text>
   </g>
-  <g class="mono" font-size="14" letter-spacing=".8">
+  <g class="mono" font-size="16" letter-spacing=".7">
     <text x="34" y="36" fill="#8B949E">RESEARCH CONSOLE / IDENTITY NODE</text>
     <text x="1165" y="36" text-anchor="end"><tspan fill="#D29922">ATTACK</tspan><tspan fill="#E6EDF3"> SURFACE</tspan><tspan fill="#D29922"> / 01</tspan></text>
     <text x="34" y="300" fill="#3FB950">● SYSTEM STATUS: RESEARCH IN PROGRESS</text>
@@ -88,8 +88,8 @@
   </g>
   <text class="display" x="66" y="157" fill="#E6EDF3" font-size="72" font-weight="700" letter-spacing="7">L1ngSh1</text>
   <rect x="68" y="178" width="54" height="3" fill="#DA3633"/>
-  <text class="display" x="68" y="213" fill="#E6EDF3" font-size="23" font-weight="600" letter-spacing="3">SECURITY RESEARCHER</text>
-  <text class="mono" x="68" y="246" fill="#8B949E" font-size="15" letter-spacing=".8">AGENT SECURITY · PROGRAM ANALYSIS · VULNERABILITY RESEARCH</text>
+  <text class="display" x="68" y="213" fill="#E6EDF3" font-size="26" font-weight="600" letter-spacing="3">SECURITY RESEARCHER</text>
+  <text class="mono" x="68" y="246" fill="#8B949E" font-size="18" letter-spacing=".6">AGENT SECURITY · PROGRAM ANALYSIS · VULNERABILITY RESEARCH</text>
   <g stroke="#D29922" fill="none" opacity=".38">
     <path d="M960 76h-10v10M1140 76h10v10M960 252h-10v-10M1140 252h10v-10"/>
   </g>

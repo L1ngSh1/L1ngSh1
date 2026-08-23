@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="520" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Current research surface</title><desc id="desc">Four research domains arranged for a mobile display.</desc>
+  <defs><style>.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace}.node{fill:#161B22;stroke:#8B949E;stroke-width:2}.active{stroke:#DA3633}.label{fill:#C9D1D9;font-size:23px}.status{fill:#3FB950;font-size:17px;letter-spacing:1px}</style></defs>
+  <rect width="720" height="520" rx="18" fill="#0D1117"/><rect x="1" y="1" width="718" height="518" rx="17" fill="none" stroke="#30363D"/>
+  <g class="mono"><text x="28" y="42" fill="#8B949E" font-size="20">RESEARCH SURFACE</text><text x="692" y="42" text-anchor="end" fill="#3FB950" font-size="20">4 NODES ONLINE</text>
+    <path d="M96 132H360M96 252H360M96 372H360M96 452H360" stroke="#30363D" stroke-width="3"/>
+    <g class="node"><circle class="active" cx="96" cy="132" r="38"/><circle cx="96" cy="252" r="38"/><circle cx="96" cy="372" r="38"/><circle class="active" cx="96" cy="452" r="38"/></g>
+    <g fill="#E6EDF3" text-anchor="middle" font-size="20" font-weight="700"><text x="96" y="139">01</text><text x="96" y="259">02</text><text x="96" y="379">03</text><text x="96" y="459">04</text></g>
+    <g class="label"><text x="164" y="127">AGENT SECURITY</text><text x="164" y="247">PROGRAM ANALYSIS</text><text x="164" y="367">VULNERABILITY EVALUATION</text><text x="164" y="447">OFFENSIVE SECURITY</text></g>
+    <g class="status"><text x="164" y="154">ACTIVE</text><text x="164" y="474">ACTIVE</text></g>
+  </g>
+</svg>

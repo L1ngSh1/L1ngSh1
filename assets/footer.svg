@@ -4,10 +4,10 @@
   <defs>
     <style>
       .mono { font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace; }
-      .identity { fill: #E6EDF3; font-size: 22px; font-weight: 700; letter-spacing: 2.2px; }
-      .verbs { fill: #8B949E; font-size: 15px; letter-spacing: 1.8px; }
-      .manifesto { fill: #C9D1D9; font-size: 18px; font-weight: 500; }
-      .copyright { fill: #6E7681; font-size: 12px; }
+      .identity { fill: #E6EDF3; font-size: 25px; font-weight: 700; letter-spacing: 2px; }
+      .verbs { fill: #8B949E; font-size: 18px; letter-spacing: 1.4px; }
+      .manifesto { fill: #C9D1D9; font-size: 21px; font-weight: 500; }
+      .copyright { fill: #6E7681; font-size: 15px; }
       @media (max-width: 600px) {
         .identity { font-size: 25px; letter-spacing: 1.2px; }
         .verbs { font-size: 19px; letter-spacing: .8px; }

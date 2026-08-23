@@ -18,6 +18,7 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "assets" / "github-telemetry.svg"
+MOBILE_OUTPUT = ROOT / "assets" / "github-telemetry-mobile.svg"
 REST_API = "https://api.github.com"
 GRAPHQL_API = "https://api.github.com/graphql"
 DEFAULT_USERNAME = "L1ngSh1"
@@ -190,7 +191,7 @@ def escaped(value: object) -> str:
 
 def pie_markup(languages: list[tuple[str, int]]) -> tuple[str, str]:
     if not languages:
-        return "", '<text x="282" y="336" fill="#8B949E" font-size="13">NO LANGUAGE DATA</text>'
+        return "", '<text x="282" y="336" fill="#8B949E" font-size="15">NO LANGUAGE DATA</text>'
 
     total = sum(count for _, count in languages)
     percentages = integer_percentages([count for _, count in languages])
@@ -229,7 +230,7 @@ def pie_markup(languages: list[tuple[str, int]]) -> tuple[str, str]:
         y = 287 + row * 38
         legends.append(
             f'<circle cx="{x}" cy="{y - 4}" r="4" fill="{color}"/>'
-            f'<text x="{x + 12}" y="{y}" fill="#8B949E" font-size="13">'
+            f'<text x="{x + 12}" y="{y}" fill="#8B949E" font-size="15">'
             f'{escaped(language)} <tspan fill="#E6EDF3">{percentage}%</tspan></text>'
         )
         start_angle = end_angle
@@ -282,25 +283,25 @@ def build_svg(
     <text x="32" y="39" fill="#8B949E" font-size="14" letter-spacing=".8">GITHUB TELEMETRY / {login.upper()}</text>
     <circle cx="1079" cy="34" r="4" fill="#3FB950"/>
     <text x="1091" y="39" fill="#3FB950" font-size="14" letter-spacing=".8">SYNCED</text>
-    <text x="1168" y="58" text-anchor="end" fill="#8B949E" font-size="10" letter-spacing=".7">AUTO-SYNC / 12H</text>
+    <text x="1168" y="60" text-anchor="end" fill="#8B949E" font-size="13" letter-spacing=".6">AUTO-SYNC / 12H</text>
     <path d="M32 68H1168" stroke="#30363D"/>
 
-    <g fill="#8B949E" font-size="12" letter-spacing=".55">{''.join(metric_labels)}</g>
-    <g fill="#E6EDF3" font-size="31" font-weight="700">{''.join(metric_values)}</g>
+    <g fill="#8B949E" font-size="14" letter-spacing=".4">{''.join(metric_labels)}</g>
+    <g fill="#E6EDF3" font-size="34" font-weight="700">{''.join(metric_values)}</g>
     <path d="{' '.join(separators)}" stroke="#30363D"/>
     <path d="M32 180H1168" stroke="#30363D"/>
 
     <rect x="32" y="210" width="548" height="228" rx="8" fill="none" stroke="#30363D"/>
-    <text x="54" y="242" fill="#8B949E" font-size="13" letter-spacing=".7">LANGUAGE COMPOSITION</text>
+    <text x="54" y="242" fill="#8B949E" font-size="15" letter-spacing=".6">LANGUAGE COMPOSITION</text>
     <circle cx="160" cy="326" r="72" fill="#30363D"/>
     {pie}
     {legend}
 
     <rect x="604" y="210" width="564" height="228" rx="8" fill="none" stroke="#30363D"/>
     <circle cx="628" cy="238" r="4" fill="#DA3633"/>
-    <text x="642" y="242" fill="#8B949E" font-size="13" letter-spacing=".7">ACTIVITY STREAK</text>
+    <text x="642" y="242" fill="#8B949E" font-size="15" letter-spacing=".6">ACTIVITY STREAK</text>
     <path d="M792 278V386M980 278V386" stroke="#30363D"/>
-    <g fill="#8B949E" font-size="11" letter-spacing=".6" text-anchor="middle">
+    <g fill="#8B949E" font-size="13" letter-spacing=".4" text-anchor="middle">
       <text x="698" y="300">CURRENT STREAK</text>
       <text x="886" y="300">LONGEST STREAK</text>
       <text x="1074" y="300">LAST ACTIVE</text>
@@ -310,11 +311,84 @@ def build_svg(
       <text x="886" y="353">{contributions.longest_streak}</text>
       <text x="1074" y="353" font-size="25">{escaped(contributions.last_active)}</text>
     </g>
-    <g fill="#8B949E" font-size="10" letter-spacing=".5" text-anchor="middle">
+    <g fill="#8B949E" font-size="13" letter-spacing=".4" text-anchor="middle">
       <text x="698" y="378">DAYS</text>
       <text x="886" y="378">DAYS / 1Y</text>
       <text x="1074" y="378">UTC</text>
     </g>
+  </g>
+</svg>
+'''
+
+
+def build_mobile_svg(
+    username: str,
+    profile: dict[str, object],
+    repositories: list[dict[str, object]],
+    language_bytes: Counter[str],
+    contributions: ContributionStats,
+) -> str:
+    """Build a legible, vertically stacked telemetry console for narrow screens."""
+    stars = sum(int(repo.get("stargazers_count", 0) or 0) for repo in repositories)
+    forks = sum(int(repo.get("forks_count", 0) or 0) for repo in repositories)
+    login = escaped(profile.get("login") or username)
+    metrics = [
+        ("PUBLIC REPOS", int(profile.get("public_repos", 0) or 0)),
+        ("FOLLOWERS", int(profile.get("followers", 0) or 0)),
+        ("STARS", stars),
+        ("FORKS", forks),
+        ("TOTAL CONTRIBUTIONS", contributions.total),
+    ]
+    metric_markup: list[str] = []
+    for index, (label, value) in enumerate(metrics[:4]):
+        column = index % 2
+        row = index // 2
+        x = 48 + column * 336
+        y = 130 + row * 112
+        metric_markup.append(
+            f'<text x="{x}" y="{y}" fill="#8B949E" font-size="17">{label}</text>'
+            f'<text x="{x}" y="{y + 45}" fill="#E6EDF3" font-size="38" font-weight="700">{value:,}</text>'
+        )
+    metric_markup.append(
+        f'<text x="48" y="356" fill="#8B949E" font-size="17">{metrics[4][0]}</text>'
+        f'<text x="48" y="404" fill="#E6EDF3" font-size="42" font-weight="700">{metrics[4][1]:,}</text>'
+    )
+
+    languages = collapse_languages(language_bytes)
+    percentages = integer_percentages([value for _, value in languages]) if languages else []
+    colors = ["#D29922", "#3FB950", "#DA3633", "#8B949E", "#E6EDF3", "#484F58"]
+    language_markup: list[str] = []
+    for index, ((language, _), percentage) in enumerate(zip(languages, percentages)):
+        y = 520 + index * 42
+        bar_width = max(5, round(470 * percentage / 100))
+        color = colors[index % len(colors)]
+        language_markup.append(
+            f'<circle cx="48" cy="{y - 6}" r="6" fill="{color}"/>'
+            f'<text x="68" y="{y}" fill="#C9D1D9" font-size="19">{escaped(language)}</text>'
+            f'<rect x="210" y="{y - 18}" width="470" height="16" rx="8" fill="#161B22"/>'
+            f'<rect x="210" y="{y - 18}" width="{bar_width}" height="16" rx="8" fill="{color}"/>'
+            f'<text x="680" y="{y}" text-anchor="end" fill="#E6EDF3" font-size="18">{percentage}%</text>'
+        )
+    streak_y = 790
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1020" viewBox="0 0 720 1020" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub telemetry console for {login}</title>
+  <desc id="desc">Mobile GitHub telemetry showing repositories, followers, stars, forks, contributions, languages, and activity streaks.</desc>
+  <defs><style>.mono {{ font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace; }}</style></defs>
+  <rect width="720" height="1020" rx="18" fill="#0D1117"/>
+  <rect x="1" y="1" width="718" height="1018" rx="17" fill="none" stroke="#30363D"/>
+  <g class="mono">
+    <text x="32" y="44" fill="#8B949E" font-size="20">GITHUB TELEMETRY / {login.upper()}</text>
+    <circle cx="590" cy="38" r="6" fill="#3FB950"/><text x="608" y="44" fill="#3FB950" font-size="18">SYNCED</text>
+    <path d="M32 70H688" stroke="#30363D"/>
+    {''.join(metric_markup)}
+    <path d="M32 438H688" stroke="#30363D"/>
+    <text x="32" y="478" fill="#8B949E" font-size="20">LANGUAGE COMPOSITION</text>
+    {''.join(language_markup)}
+    <rect x="32" y="{streak_y}" width="656" height="184" rx="12" fill="none" stroke="#30363D"/>
+    <circle cx="56" cy="{streak_y + 34}" r="6" fill="#DA3633"/><text x="76" y="{streak_y + 41}" fill="#8B949E" font-size="20">ACTIVITY STREAK</text>
+    <g fill="#8B949E" font-size="16" text-anchor="middle"><text x="142" y="{streak_y + 94}">CURRENT</text><text x="360" y="{streak_y + 94}">LONGEST / 1Y</text><text x="578" y="{streak_y + 94}">LAST ACTIVE</text></g>
+    <g fill="#E6EDF3" font-size="35" font-weight="700" text-anchor="middle"><text x="142" y="{streak_y + 146}">{contributions.current_streak}</text><text x="360" y="{streak_y + 146}">{contributions.longest_streak}</text><text x="578" y="{streak_y + 146}" font-size="27">{escaped(contributions.last_active)}</text></g>
+    <text x="688" y="998" text-anchor="end" fill="#8B949E" font-size="16">AUTO-SYNC / 12H</text>
   </g>
 </svg>
 '''
@@ -345,7 +419,9 @@ def main() -> int:
     if not isinstance(profile, dict):
         raise SystemExit("GitHub profile response is not an object.")
     svg = build_svg(username, profile, repositories, language_bytes, contributions)
+    mobile_svg = build_mobile_svg(username, profile, repositories, language_bytes, contributions)
     write_if_changed(OUTPUT, svg)
+    write_if_changed(MOBILE_OUTPUT, mobile_svg)
     return 0
 
 
