@@ -3,21 +3,21 @@
   <desc id="desc">A research node sends an amber packet to the active node, which acknowledges and returns it.</desc>
   <defs><style>.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace}@media(prefers-reduced-motion:reduce){.packet{display:none}}</style></defs>
   <text class="mono" x="12" y="39" fill="#8B949E" font-size="18">[ NODE ]</text>
-  <line x1="138" y1="32" x2="546" y2="32" stroke="#8B949E" opacity=".58"/>
+  <line x1="138" y1="32" x2="620" y2="32" stroke="#8B949E" opacity=".58"/>
   <circle cx="138" cy="32" r="6" fill="#DA3633">
     <animate attributeName="r" values="6;6;8;6;6" keyTimes="0;.689;.69;.72;1" dur="10s" repeatCount="indefinite"/>
   </circle>
   <circle class="packet" cx="138" cy="32" r="5" fill="#D29922" opacity="0">
-    <animate attributeName="cx" values="138;138;546;546" keyTimes="0;.15;.27;1" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="cx" values="138;138;620;620" keyTimes="0;.15;.27;1" dur="10s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.149;.15;.269;.27;1" dur="10s" repeatCount="indefinite"/>
   </circle>
-  <circle class="packet" cx="546" cy="32" r="5" fill="#D29922" opacity="0">
-    <animate attributeName="cx" values="546;546;138;138" keyTimes="0;.57;.69;1" dur="10s" repeatCount="indefinite"/>
+  <circle class="packet" cx="620" cy="32" r="5" fill="#D29922" opacity="0">
+    <animate attributeName="cx" values="620;620;138;138" keyTimes="0;.57;.69;1" dur="10s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.569;.57;.689;.69;1" dur="10s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="546" cy="32" r="6" fill="#3FB950" opacity=".8">
+  <circle cx="620" cy="32" r="6" fill="#3FB950" opacity=".8">
     <animate attributeName="r" values="6;6;8.5;7.5;7.5;6" keyTimes="0;.269;.27;.30;.57;1" dur="10s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values=".8;.8;1;1;.8" keyTimes="0;.269;.27;.57;1" dur="10s" repeatCount="indefinite"/>
   </circle>
-  <text class="mono" x="566" y="39" fill="#8B949E" font-size="18">ACTIVE</text>
+  <text class="mono" x="640" y="39" fill="#8B949E" font-size="18">ACTIVE</text>
 </svg>
