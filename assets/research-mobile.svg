@@ -1,12 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="520" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
-  <title id="title">Current research surface</title><desc id="desc">Four research domains arranged for a mobile display.</desc>
-  <defs><style>.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace}.node{fill:#161B22;stroke:#8B949E;stroke-width:2}.active{stroke:#DA3633}.label{fill:#C9D1D9;font-size:23px}.status{fill:#3FB950;font-size:17px;letter-spacing:1px}</style></defs>
-  <rect width="720" height="520" rx="18" fill="#0D1117"/><rect x="1" y="1" width="718" height="518" rx="17" fill="none" stroke="#30363D"/>
-  <g class="mono"><text x="28" y="42" fill="#8B949E" font-size="20">RESEARCH SURFACE</text><text x="692" y="42" text-anchor="end" fill="#3FB950" font-size="20">4 NODES ONLINE</text>
-    <path d="M96 132H360M96 252H360M96 372H360M96 452H360" stroke="#30363D" stroke-width="3"/>
-    <g class="node"><circle class="active" cx="96" cy="132" r="38"/><circle cx="96" cy="252" r="38"/><circle cx="96" cy="372" r="38"/><circle class="active" cx="96" cy="452" r="38"/></g>
-    <g fill="#E6EDF3" text-anchor="middle" font-size="20" font-weight="700"><text x="96" y="139">01</text><text x="96" y="259">02</text><text x="96" y="379">03</text><text x="96" y="459">04</text></g>
-    <g class="label"><text x="164" y="127">AGENT SECURITY</text><text x="164" y="247">PROGRAM ANALYSIS</text><text x="164" y="367">VULNERABILITY EVALUATION</text><text x="164" y="447">OFFENSIVE SECURITY</text></g>
-    <g class="status"><text x="164" y="154">ACTIVE</text><text x="164" y="474">ACTIVE</text></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380" role="img" aria-labelledby="title desc">
+  <title id="title">Current research surface</title><desc id="desc">Four peer research domains arranged as a balanced two-by-two mobile research grid.</desc>
+  <defs><style>.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace}.connector{fill:none;stroke:#30363D;stroke-width:2}.node{fill:#161B22;stroke:#8B949E;stroke-width:2}.active{stroke:#DA3633}.halo{fill:none;stroke:#DA3633;stroke-width:1;stroke-dasharray:3 7;opacity:.42}.label{fill:#8B949E;font-size:18px;letter-spacing:.2px}.label-active{fill:#C9D1D9}.status{fill:#3FB950;font-size:14px;letter-spacing:1px}</style></defs>
+  <rect width="720" height="380" rx="18" fill="#0D1117"/><rect x="1" y="1" width="718" height="378" rx="17" fill="none" stroke="#30363D"/>
+  <g class="mono">
+    <text x="28" y="42" fill="#8B949E" font-size="20">RESEARCH SURFACE / LIVE TRACE</text><text x="692" y="42" text-anchor="end" fill="#3FB950" font-size="20">4 NODES ONLINE</text>
+    <path class="connector" d="M214 118H506M214 258H506M360 118V258"/>
+    <g class="node"><circle class="active" cx="180" cy="118" r="34"/><circle cx="540" cy="118" r="34"/><circle cx="180" cy="258" r="34"/><circle class="active" cx="540" cy="258" r="34"/></g>
+    <g fill="#E6EDF3" text-anchor="middle" font-size="18" font-weight="700"><text x="180" y="124">01</text><text x="540" y="124">02</text><text x="180" y="264">03</text><text x="540" y="264">04</text></g>
+    <g class="label" text-anchor="middle"><text class="label-active" x="180" y="180">AGENT SECURITY</text><text x="540" y="180">PROGRAM ANALYSIS</text><text x="180" y="320">VULNERABILITY EVALUATION</text><text class="label-active" x="540" y="320">OFFENSIVE SECURITY</text></g>
+    <g class="status" text-anchor="middle"><text x="180" y="204">ACTIVE</text><text x="540" y="344">ACTIVE</text></g>
+    <circle class="halo" cx="180" cy="118" r="42"/><circle class="halo" cx="540" cy="258" r="42"/>
   </g>
 </svg>

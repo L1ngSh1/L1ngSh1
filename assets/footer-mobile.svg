@@ -1,8 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="460" viewBox="0 0 720 460" role="img" aria-labelledby="title desc">
-  <title id="title">L1ngSh1 AI Security Research footer</title><desc id="desc">Mobile AI security research manifesto.</desc>
+  <title id="title">L1ngSh1 AI Security Research footer</title><desc id="desc">Mobile AI security research manifesto with inward red console arrows.</desc>
   <defs><style>.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace}</style></defs>
   <rect width="720" height="460" rx="18" fill="#0D1117"/><rect x="1" y="1" width="718" height="458" rx="17" fill="none" stroke="#30363D"/>
-  <g class="mono" text-anchor="middle"><text x="360" y="53" fill="#E6EDF3" font-size="32" font-weight="700" letter-spacing="1.6">L1ngSh1</text><text x="360" y="91" fill="#E6EDF3" font-size="25" font-weight="700" letter-spacing="1.4">SECURITY RESEARCH</text><path d="M96 116H624" stroke="#30363D"/><text x="360" y="153" fill="#8B949E" font-size="22" letter-spacing="1">EXPLORE · BREAK · UNCOVER · BUILD</text>
+  <path d="M92 84H202M518 84H628" stroke="#30363D"/>
+  <path d="M202 77l11 7-11 7M518 77l-11 7 11 7" fill="none" stroke="#DA3633" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g class="mono" text-anchor="middle">
+    <text x="360" y="53" fill="#E6EDF3" font-size="32" font-weight="700" letter-spacing="1.6">L1ngSh1</text>
+    <text x="360" y="91" fill="#E6EDF3" font-size="25" font-weight="700" letter-spacing="1.4">SECURITY RESEARCH</text>
+    <text x="360" y="153" fill="#8B949E" font-size="22" letter-spacing="1">EXPLORE · BREAK · UNCOVER · BUILD</text>
     <g fill="#C9D1D9" font-size="27"><text x="360" y="217">We explore the unknown</text><text x="360" y="262">We break assumptions</text><text x="360" y="307">We uncover the unseen</text><text x="360" y="352">We build the future</text></g>
-    <text x="360" y="418" fill="#6E7681" font-size="17">© 2026 L1ngSh1 — EVOLVING RESEARCH CONSOLE</text></g>
+    <text x="360" y="418" fill="#6E7681" font-size="17">© 2026 L1ngSh1 — EVOLVING RESEARCH CONSOLE</text>
+  </g>
 </svg>
