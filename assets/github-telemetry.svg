@@ -17,15 +17,15 @@
     <path d="M32 68H1168" stroke="#30363D"/>
 
     <g fill="#8B949E" font-size="14" letter-spacing=".4"><text x="32.0" y="102">PUBLIC REPOS</text><text x="259.2" y="102">FOLLOWERS</text><text x="486.4" y="102">STARS</text><text x="713.6" y="102">FORKS</text><text x="940.8" y="102">TOTAL CONTRIBUTIONS</text></g>
-    <g fill="#E6EDF3" font-size="34" font-weight="700"><text x="32.0" y="145">9</text><text x="259.2" y="145">8</text><text x="486.4" y="145">5</text><text x="713.6" y="145">0</text><text x="940.8" y="145">426</text></g>
+    <g fill="#E6EDF3" font-size="34" font-weight="700"><text x="32.0" y="145">9</text><text x="259.2" y="145">8</text><text x="486.4" y="145">5</text><text x="713.6" y="145">0</text><text x="940.8" y="145">445</text></g>
     <path d="M241.2 82V158 M468.4 82V158 M695.6 82V158 M922.8 82V158" stroke="#30363D"/>
     <path d="M32 180H1168" stroke="#30363D"/>
 
     <rect x="32" y="210" width="548" height="228" rx="8" fill="none" stroke="#30363D"/>
     <text x="54" y="242" fill="#8B949E" font-size="15" letter-spacing=".6">LANGUAGE COMPOSITION</text>
     <circle cx="160" cy="326" r="72" fill="#30363D"/>
-    <path d="M160 326 L160.00 254.00 A72 72 0 1 1 143.88 396.17 Z" fill="#D29922" stroke="#0D1117" stroke-width="1.5" stroke-linejoin="round"/><path d="M160 326 L143.88 396.17 A72 72 0 0 1 88.01 327.03 Z" fill="#3FB950" stroke="#0D1117" stroke-width="1.5" stroke-linejoin="round"/><path d="M160 326 L88.01 327.03 A72 72 0 0 1 141.47 256.43 Z" fill="#DA3633" stroke="#0D1117" stroke-width="1.5" stroke-linejoin="round"/><path d="M160 326 L141.47 256.43 A72 72 0 0 1 151.38 254.52 Z" fill="#8B949E" stroke="#0D1117" stroke-width="1.5" stroke-linejoin="round"/><path d="M160 326 L151.38 254.52 A72 72 0 0 1 155.69 254.13 Z" fill="#E6EDF3" stroke="#0D1117" stroke-width="1.5" stroke-linejoin="round"/><path d="M160 326 L155.69 254.13 A72 72 0 0 1 160.00 254.00 Z" fill="#30363D" stroke="#0D1117" stroke-width="1.5" stroke-linejoin="round"/>
-    <circle cx="284" cy="283" r="4" fill="#D29922"/><text x="296" y="287" fill="#8B949E" font-size="15">Java <tspan fill="#E6EDF3">54%</tspan></text><circle cx="434" cy="283" r="4" fill="#3FB950"/><text x="446" y="287" fill="#8B949E" font-size="15">HTML <tspan fill="#E6EDF3">21%</tspan></text><circle cx="284" cy="321" r="4" fill="#DA3633"/><text x="296" y="325" fill="#8B949E" font-size="15">Python <tspan fill="#E6EDF3">21%</tspan></text><circle cx="434" cy="321" r="4" fill="#8B949E"/><text x="446" y="325" fill="#8B949E" font-size="15">C++ <tspan fill="#E6EDF3">2%</tspan></text><circle cx="284" cy="359" r="4" fill="#E6EDF3"/><text x="296" y="363" fill="#8B949E" font-size="15">Shell <tspan fill="#E6EDF3">1%</tspan></text><circle cx="434" cy="359" r="4" fill="#30363D"/><text x="446" y="363" fill="#8B949E" font-size="15">OTHER <tspan fill="#E6EDF3">1%</tspan></text>
+    <path d="M160 326 L160.00 254.00 A72 72 0 1 1 144.17 396.24 Z" fill="#D29922" stroke="#0D1117" stroke-width="1.5" stroke-linejoin="round"/><path d="M160 326 L144.17 396.24 A72 72 0 0 1 88.01 327.41 Z" fill="#DA3633" stroke="#0D1117" stroke-width="1.5" stroke-linejoin="round"/><path d="M160 326 L88.01 327.41 A72 72 0 0 1 141.40 256.44 Z" fill="#3FB950" stroke="#0D1117" stroke-width="1.5" stroke-linejoin="round"/><path d="M160 326 L141.40 256.44 A72 72 0 0 1 151.35 254.52 Z" fill="#8B949E" stroke="#0D1117" stroke-width="1.5" stroke-linejoin="round"/><path d="M160 326 L151.35 254.52 A72 72 0 0 1 155.69 254.13 Z" fill="#E6EDF3" stroke="#0D1117" stroke-width="1.5" stroke-linejoin="round"/><path d="M160 326 L155.69 254.13 A72 72 0 0 1 160.00 254.00 Z" fill="#30363D" stroke="#0D1117" stroke-width="1.5" stroke-linejoin="round"/>
+    <circle cx="284" cy="283" r="4" fill="#D29922"/><text x="296" y="287" fill="#8B949E" font-size="15">Java <tspan fill="#E6EDF3">54%</tspan></text><circle cx="434" cy="283" r="4" fill="#DA3633"/><text x="446" y="287" fill="#8B949E" font-size="15">Python <tspan fill="#E6EDF3">21%</tspan></text><circle cx="284" cy="321" r="4" fill="#3FB950"/><text x="296" y="325" fill="#8B949E" font-size="15">HTML <tspan fill="#E6EDF3">21%</tspan></text><circle cx="434" cy="321" r="4" fill="#8B949E"/><text x="446" y="325" fill="#8B949E" font-size="15">C++ <tspan fill="#E6EDF3">2%</tspan></text><circle cx="284" cy="359" r="4" fill="#E6EDF3"/><text x="296" y="363" fill="#8B949E" font-size="15">Shell <tspan fill="#E6EDF3">1%</tspan></text><circle cx="434" cy="359" r="4" fill="#30363D"/><text x="446" y="363" fill="#8B949E" font-size="15">OTHER <tspan fill="#E6EDF3">1%</tspan></text>
 
     <rect x="604" y="210" width="564" height="228" rx="8" fill="none" stroke="#30363D"/>
     <circle cx="628" cy="238" r="4" fill="#DA3633"/>
@@ -37,9 +37,9 @@
       <text x="1074" y="300">LAST ACTIVE</text>
     </g>
     <g fill="#E6EDF3" font-size="34" font-weight="700" text-anchor="middle">
-      <text x="698" y="353">2</text>
+      <text x="698" y="353">3</text>
       <text x="886" y="353">6</text>
-      <text x="1074" y="353" font-size="25">Aug 22</text>
+      <text x="1074" y="353" font-size="25">Aug 23</text>
     </g>
     <g fill="#8B949E" font-size="13" letter-spacing=".4" text-anchor="middle">
       <text x="698" y="378">DAYS</text>
