@@ -15,7 +15,7 @@
     <rect x="32" y="790" width="656" height="184" rx="12" fill="none" stroke="#30363D"/>
     <circle cx="56" cy="824" r="6" fill="#DA3633"/><text x="76" y="831" fill="#8B949E" font-size="20">ACTIVITY STREAK</text>
     <g fill="#8B949E" font-size="16" text-anchor="middle"><text x="142" y="884">CURRENT</text><text x="360" y="884">LONGEST / 1Y</text><text x="578" y="884">LAST ACTIVE</text></g>
-    <g fill="#E6EDF3" font-size="35" font-weight="700" text-anchor="middle"><text x="142" y="936">4</text><text x="360" y="936">6</text><text x="578" y="936" font-size="27">Aug 24</text></g>
+    <g fill="#E6EDF3" font-size="35" font-weight="700" text-anchor="middle"><text x="142" y="936">0</text><text x="360" y="936">6</text><text x="578" y="936" font-size="27">Aug 24</text></g>
     <text x="688" y="998" text-anchor="end" fill="#8B949E" font-size="16">AUTO-SYNC / 12H</text>
   </g>
 </svg>
