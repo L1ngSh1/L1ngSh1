@@ -17,7 +17,7 @@
     <path d="M32 68H1168" stroke="#30363D"/>
 
     <g fill="#8B949E" font-size="14" letter-spacing=".4"><text x="32.0" y="102">PUBLIC REPOS</text><text x="259.2" y="102">FOLLOWERS</text><text x="486.4" y="102">STARS</text><text x="713.6" y="102">FORKS</text><text x="940.8" y="102">TOTAL CONTRIBUTIONS</text></g>
-    <g fill="#E6EDF3" font-size="34" font-weight="700"><text x="32.0" y="145">8</text><text x="259.2" y="145">8</text><text x="486.4" y="145">5</text><text x="713.6" y="145">0</text><text x="940.8" y="145">448</text></g>
+    <g fill="#E6EDF3" font-size="34" font-weight="700"><text x="32.0" y="145">8</text><text x="259.2" y="145">8</text><text x="486.4" y="145">5</text><text x="713.6" y="145">0</text><text x="940.8" y="145">449</text></g>
     <path d="M241.2 82V158 M468.4 82V158 M695.6 82V158 M922.8 82V158" stroke="#30363D"/>
     <path d="M32 180H1168" stroke="#30363D"/>
 
@@ -37,9 +37,9 @@
       <text x="1074" y="300">LAST ACTIVE</text>
     </g>
     <g fill="#E6EDF3" font-size="34" font-weight="700" text-anchor="middle">
-      <text x="698" y="353">0</text>
+      <text x="698" y="353">1</text>
       <text x="886" y="353">6</text>
-      <text x="1074" y="353" font-size="25">Aug 24</text>
+      <text x="1074" y="353" font-size="25">Aug 28</text>
     </g>
     <g fill="#8B949E" font-size="13" letter-spacing=".4" text-anchor="middle">
       <text x="698" y="378">DAYS</text>
