@@ -176,6 +176,8 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
 <p align="center">
   <a href="https://github.com/L1ngSh1"><img src="https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge&amp;logo=github&amp;logoColor=E6EDF3" height="42" alt="GitHub profile"></a>
   &nbsp;&nbsp;
+  <a href="https://hackerone.com/l1ngsh1"><img src="https://img.shields.io/badge/HACKERONE-0D1117?style=for-the-badge&amp;logo=hackerone&amp;logoColor=E6EDF3" height="42" alt="HackerOne profile"></a>
+  &nbsp;&nbsp;
   <a href="mailto:y4n9yuz3@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0D1117?style=for-the-badge&amp;logo=protonmail&amp;logoColor=E6EDF3" height="42" alt="Email L1ngSh1"></a>
   &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/yuze-yang-9a548a3b3/"><img src="https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGNpcmNsZSBjeD0iNCIgY3k9IjQiIHI9IjIuMyIgZmlsbD0iI2U2ZWRmMyIvPjxwYXRoIGZpbGw9IiNlNmVkZjMiIGQ9Ik0xLjUgOGg1djE0aC01ek05IDhoNC44djJjMS4zLTEuNyAzLTIuNSA0LjktMi41IDQuMSAwIDYuMyAyLjYgNi4zIDcuMlYyMmgtNXYtNi44YzAtMi41LS45LTMuNy0yLjgtMy43LTIuMyAwLTMuMyAxLjYtMy4zIDQuMlYyMkg5eiIvPjwvc3ZnPg%3D%3D" height="42" alt="LinkedIn profile"></a>
