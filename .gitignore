@@ -17,3 +17,6 @@ venv/
 # Temporary files
 *.tmp
 *.temp
+
+# Generated verification and render artifacts
+output/

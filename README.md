@@ -68,39 +68,10 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
 
 ### Security & Engineering Stack
 
-#### Languages
-
-![Python](https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=3776AB)
-![C++](https://img.shields.io/badge/C%2B%2B-161B22?style=flat-square&logo=cplusplus&logoColor=00599C)
-![Java](https://img.shields.io/badge/Java-161B22?style=flat-square&logo=openjdk&logoColor=ED8B00)
-![Bash](https://img.shields.io/badge/Bash-161B22?style=flat-square&logo=gnubash&logoColor=4EAA25)
-![JavaScript](https://img.shields.io/badge/JavaScript-161B22?style=flat-square&logo=javascript&logoColor=F7DF1E)
-
-#### Analysis Infrastructure
-
-![Clang / LLVM](https://img.shields.io/badge/Clang_%2F_LLVM-161B22?style=flat-square&logo=llvm&logoColor=F34B7D)
-![CodeQL](https://img.shields.io/badge/CodeQL-161B22?style=flat-square&logo=github&logoColor=2088FF)
-![Clang AST](https://img.shields.io/badge/Clang_AST-161B22?style=flat-square&logo=c&logoColor=A8B9CC)
-![Static Analysis](https://img.shields.io/badge/Static_Analysis-161B22?style=flat-square&logo=semgrep&logoColor=00A98F)
-![Data Flow](https://img.shields.io/badge/Data_Flow-161B22?style=flat-square&logo=apacheairflow&logoColor=017CEE)
-![Taint Analysis](https://img.shields.io/badge/Taint_Analysis-161B22?style=flat-square&logo=owasp&logoColor=5A5ADB)
-
-#### Security Environment
-
-![Linux](https://img.shields.io/badge/Linux-161B22?style=flat-square&logo=linux&logoColor=FCC624)
-![Docker](https://img.shields.io/badge/Docker-161B22?style=flat-square&logo=docker&logoColor=2496ED)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-161B22?style=flat-square&logo=burpsuite&logoColor=FF6633)
-![Git](https://img.shields.io/badge/Git-161B22?style=flat-square&logo=git&logoColor=F05032)
-![Frida](https://img.shields.io/badge/Frida-161B22?style=flat-square&logo=frida&logoColor=E7E7E7)
-![mitmproxy](https://img.shields.io/badge/mitmproxy-161B22?style=flat-square&logo=python&logoColor=3776AB)
-![Nmap](https://img.shields.io/badge/Nmap-161B22?style=flat-square&logo=target&logoColor=4682B4)
-
-#### Agent & Evaluation Research
-
-![LLM Agents](https://img.shields.io/badge/LLM_Agents-161B22?style=flat-square&logo=openai&logoColor=10A37F)
-![Prompt Injection](https://img.shields.io/badge/Prompt_Injection-161B22?style=flat-square&logo=owasp&logoColor=F85149)
-![Security Evaluation](https://img.shields.io/badge/Security_Evaluation-161B22?style=flat-square&logo=checkmarx&logoColor=54B848)
-![Reproducible Experiments](https://img.shields.io/badge/Reproducible_Experiments-161B22?style=flat-square&logo=pytest&logoColor=0A9EDC)
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/stack-mobile.svg">
+  <img src="assets/stack.svg" alt="Security &amp; Engineering Stack — Languages; Analysis Infrastructure; Security Environment, including Kali Linux and Metasploit; Agent &amp; Evaluation Research" width="100%">
+</picture>
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/divider-mobile.svg">
