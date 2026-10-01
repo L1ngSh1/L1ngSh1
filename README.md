@@ -82,38 +82,44 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/projects-mobile.svg">
-  <img src="assets/projects.svg" alt="Featured systems console" width="100%">
+  <img src="assets/projects.svg" alt="Five featured systems: Vuln-Eval-Platform, Arborchive, IPI-Security-Vault, KaliMac, and VulnArc" width="100%">
 </picture>
 
-#### [`01 / Vuln-Eval-Platform`](https://github.com/L1ngSh1/Vuln-Eval-Platform)
+#### 🛡️ [`01 / Vuln-Eval-Platform`](https://github.com/L1ngSh1/Vuln-Eval-Platform)
 
 **A vulnerability-evaluation platform for analysis systems.** Measures and compares automated security tools through reproducible experiments, explicit metrics, and reviewable evidence.
 
 `Security Evaluation` · `Benchmark` · `Vulnerability Detection`
 
-
-
-#### [`02 / Arborchive`](https://github.com/L1ngSh1/Arborchive)
+#### 🌳 [`02 / Arborchive`](https://github.com/L1ngSh1/Arborchive)
 
 **Program-analysis infrastructure for source-level reasoning.** Built with C++ and Clang AST, with a focus on templates, namespaces, class hierarchies, initialization, and explicit source relationships.
 
 `C++` · `Clang` · `LLVM` · `AST` · `Program Analysis`
 
-
-
-#### [`03 / IPI-Security-Vault`](https://github.com/L1ngSh1/IPI-Security-Vault)
+#### 💉 [`03 / IPI-Security-Vault`](https://github.com/L1ngSh1/IPI-Security-Vault)
 
 **A reproducible environment for indirect prompt-injection research.** Evaluates attacks against LLM agents and tool-using systems inside controlled Docker-based experiments.
 
 `Agent Security` · `Prompt Injection` · `Docker` · `Android`
 
+#### 🗡️ `04 / KaliMac`
 
+**A project-scoped Kali CLI for macOS.** Runs security tools in Docker-based Kali environments while keeping project files on the Mac and returning output and exit codes to the original terminal.
+
+`macOS` · `Kali Linux` · `Go` · `Docker` · `CLI`
+
+#### 🗂️ [`05 / VulnArc`](https://github.com/L1ngSh1/VulnArc)
+
+**A repo-first workspace for human–AI vulnerability research.** Connects hypotheses, validation, disclosure, and reusable patterns through Markdown records, YAML metadata, and a lightweight CLI.
+
+`Vulnerability Research` · `Human × AI` · `Markdown` · `Python` · `CLI`
 
 #### More Systems
 
-- [`ctf-lab`](https://github.com/L1ngSh1/ctf-lab) — practical CTF exercises and offensive-security methodology.
+- 🏴 [`ctf-lab`](https://github.com/L1ngSh1/ctf-lab) — practical CTF exercises and offensive-security methodology.
 
-- [`netwatch-cli`](https://github.com/L1ngSh1/netwatch-cli) — lightweight network and system inspection for security-engineering workflows.
+- 📡 [`netwatch-cli`](https://github.com/L1ngSh1/netwatch-cli) — lightweight network and system inspection for security-engineering workflows.
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/divider-mobile.svg">

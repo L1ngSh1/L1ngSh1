@@ -1,11 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="390" viewBox="0 0 720 390" role="img" aria-labelledby="title desc">
-  <title id="title">Featured systems index</title><desc id="desc">Three flagship research systems in a mobile vertical trace.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="460" viewBox="0 0 720 460" role="img" aria-labelledby="title desc">
+  <title id="title">Featured systems index</title><desc id="desc">Five featured systems in a mobile vertical trace: Vuln-Eval-Platform, Arborchive, IPI-Security-Vault, KaliMac, and VulnArc.</desc>
   <defs><style>.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace}</style></defs>
-  <rect width="720" height="390" rx="18" fill="#0D1117"/><rect x="1" y="1" width="718" height="388" rx="17" fill="none" stroke="#30363D"/>
-  <g class="mono"><text x="28" y="43" fill="#8B949E" font-size="20">SYSTEM INDEX</text><text x="692" y="43" text-anchor="end" fill="#D29922" font-size="20">03 SYSTEMS</text>
-    <path d="M76 104V326" stroke="#30363D" stroke-width="3"/>
-    <g fill="#0D1117" stroke="#8B949E" stroke-width="3"><rect x="65" y="93" width="22" height="22" transform="rotate(45 76 104)"/><rect x="65" y="198" width="22" height="22" transform="rotate(45 76 209)"/><rect x="65" y="303" width="22" height="22" transform="rotate(45 76 314)"/></g>
-    <rect x="65" y="198" width="22" height="22" transform="rotate(45 76 209)" fill="#DA3633" stroke="#F85149" stroke-width="3"/>
-    <g fill="#C9D1D9" font-size="24"><text x="126" y="113">ARBORCHIVE</text><text x="126" y="218">IPI-SECURITY-VAULT</text><text x="126" y="323">VULN-EVAL-PLATFORM</text></g>
+  <rect width="720" height="460" rx="18" fill="#0D1117"/><rect x="1" y="1" width="718" height="458" rx="17" fill="none" stroke="#30363D"/>
+  <g class="mono"><text x="28" y="43" fill="#8B949E" font-size="20">SYSTEM INDEX</text><text x="692" y="43" text-anchor="end" fill="#D29922" font-size="20">05 SYSTEMS</text>
+    <path d="M76 104V400" stroke="#30363D" stroke-width="3"/>
+    <g fill="#0D1117" stroke="#8B949E" stroke-width="3">
+      <rect x="65" y="93" width="22" height="22" transform="rotate(45 76 104)"/>
+      <rect x="65" y="167" width="22" height="22" transform="rotate(45 76 178)"/>
+      <rect x="65" y="241" width="22" height="22" transform="rotate(45 76 252)"/>
+      <rect x="65" y="315" width="22" height="22" transform="rotate(45 76 326)" fill="#D29922" stroke="#E3B341"/>
+      <rect x="65" y="389" width="22" height="22" transform="rotate(45 76 400)" fill="#238636" stroke="#3FB950"/>
+    </g>
+    <rect x="65" y="241" width="22" height="22" transform="rotate(45 76 252)" fill="#DA3633" stroke="#F85149" stroke-width="3"/>
+    <g fill="#C9D1D9" font-size="24">
+      <text x="126" y="113" data-project="Vuln-Eval-Platform">VULN-EVAL-PLATFORM</text>
+      <text x="126" y="187" data-project="Arborchive">ARBORCHIVE</text>
+      <text x="126" y="261" data-project="IPI-Security-Vault">IPI-SECURITY-VAULT</text>
+      <text x="126" y="335" data-project="KaliMac" fill="#E3B341">KALIMAC</text>
+      <text x="126" y="409" data-project="VulnArc" fill="#3FB950">VULNARC</text>
+    </g>
   </g>
 </svg>
