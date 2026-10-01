@@ -9,7 +9,7 @@
       .node-active { stroke: #DA3633; stroke-opacity: .72; }
       .label { fill: #8B949E; }
       .label-active { fill: #C9D1D9; }
-      .active-halo { fill: none; stroke: #DA3633; stroke-width: 1; stroke-dasharray: 3 7; stroke-opacity: .34; }
+      .active-halo { fill: none; stroke: #DA3633; stroke-width: 1.25; stroke-dasharray: 3 7; stroke-opacity: .80; }
       .active-status { fill: #3FB950; font-size: 12px; letter-spacing: 1px; }
     </style>
   </defs>
