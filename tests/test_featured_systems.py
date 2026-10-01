@@ -30,10 +30,8 @@ class FeaturedSystemsTests(unittest.TestCase):
         self.assertIn('hypotheses, validation, disclosure, and reusable patterns', self.section)
 
     def test_project_links_and_more_system_icons(self):
-        # KaliMac stays unlinked until its repository is publicly accessible.
-        self.assertIn('#### 🗡️ `04 / KaliMac`', self.section)
-        self.assertNotIn('https://github.com/L1ngSh1/KaliMac', self.section)
-        for project in PROJECTS[:3] + PROJECTS[4:]:
+        self.assertIn('#### 🗡️ [`04 / KaliMac`](https://github.com/L1ngSh1/KaliMac)', self.section)
+        for project in PROJECTS:
             self.assertIn(f'(https://github.com/L1ngSh1/{project})', self.section)
         self.assertIn('- 🏴 [`ctf-lab`]', self.section)
         self.assertIn('- 📡 [`netwatch-cli`]', self.section)

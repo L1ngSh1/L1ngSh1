@@ -103,7 +103,7 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
 
 `Agent Security` · `Prompt Injection` · `Docker` · `Android`
 
-#### 🗡️ `04 / KaliMac`
+#### 🗡️ [`04 / KaliMac`](https://github.com/L1ngSh1/KaliMac)
 
 **A project-scoped Kali CLI for macOS.** Runs security tools in Docker-based Kali environments while keeping project files on the Mac and returning output and exit codes to the original terminal.
 
