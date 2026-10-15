@@ -9,7 +9,11 @@ import unittest
 
 
 def add(a: int, b: int) -> int:
-    """Return the exact sum of two Python integers."""
+    """Return the exact sum of integers; reject booleans and other types."""
+    if not isinstance(a, int) or isinstance(a, bool):
+        raise TypeError("a must be an integer (not bool)")
+    if not isinstance(b, int) or isinstance(b, bool):
+        raise TypeError("b must be an integer (not bool)")
     return a + b
 
 
