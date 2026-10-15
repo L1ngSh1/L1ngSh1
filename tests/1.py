@@ -39,6 +39,24 @@ class AddTests(unittest.TestCase):
         self.assertEqual(add(-(2**63), -1), -(2**63) - 1)
         self.assertEqual(add(10**100, 1), 10**100 + 1)
 
+    def test_rejects_invalid_first_operand(self):
+        for value in ("1", 1.5, None, True, False, [], {}, 1 + 2j):
+            with self.subTest(value=value):
+                with self.assertRaisesRegex(TypeError, "^a must be an integer"):
+                    add(value, 1)
+
+    def test_rejects_invalid_second_operand(self):
+        for value in ("1", 1.5, None, True, False, [], {}, 1 + 2j):
+            with self.subTest(value=value):
+                with self.assertRaisesRegex(TypeError, "^b must be an integer"):
+                    add(1, value)
+
+    def test_rejects_two_invalid_operands(self):
+        for operands in (("a", "b"), (True, False), (None, None)):
+            with self.subTest(operands=operands):
+                with self.assertRaises(TypeError):
+                    add(*operands)
+
     def test_opposites_cancel(self):
         for value in (1, -1, 10**100):
             with self.subTest(value=value):
