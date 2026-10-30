@@ -95,7 +95,9 @@ def generate(mobile=False):
  return '\n'.join(content)+'\n'
 
 if __name__=='__main__':
+ from generate_light_assets import write_light_asset
  for mobile in (False,True):
   path=ROOT/'assets'/('stack-mobile.svg' if mobile else 'stack.svg')
   path.write_text(generate(mobile))
-  print(f'Generated {path.name}')
+  write_light_asset(path)
+  print(f'Generated dark/light {path.name}')

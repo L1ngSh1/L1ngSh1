@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="460" viewBox="0 0 720 460" role="img" aria-labelledby="title desc">
+  <title id="title">Featured systems index</title><desc id="desc">Five featured systems in a mobile vertical trace: Vuln-Eval-Platform, Arborchive, IPI-Security-Vault, KaliMac, and VulnArc.</desc>
+  <defs><style>.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace}</style></defs>
+  <rect width="720" height="460" rx="18" fill="#FFFFFF"/><rect x="1" y="1" width="718" height="458" rx="17" fill="none" stroke="#D0D7DE"/>
+  <g class="mono"><text x="28" y="43" fill="#57606A" font-size="20">SYSTEM INDEX</text><text x="692" y="43" text-anchor="end" fill="#9A6700" font-size="20">05 SYSTEMS</text>
+    <path d="M76 104V400" stroke="#D0D7DE" stroke-width="3"/>
+    <g fill="#FFFFFF" stroke="#57606A" stroke-width="3">
+      <rect x="65" y="93" width="22" height="22" transform="rotate(45 76 104)"/>
+      <rect x="65" y="167" width="22" height="22" transform="rotate(45 76 178)"/>
+      <rect x="65" y="241" width="22" height="22" transform="rotate(45 76 252)"/>
+      <rect x="65" y="315" width="22" height="22" transform="rotate(45 76 326)" fill="#9A6700" stroke="#9A6700"/>
+      <rect x="65" y="389" width="22" height="22" transform="rotate(45 76 400)" fill="#1A7F37" stroke="#1A7F37"/>
+    </g>
+    <rect x="65" y="241" width="22" height="22" transform="rotate(45 76 252)" fill="#CF222E" stroke="#CF222E" stroke-width="3"/>
+    <g fill="#24292F" font-size="24">
+      <text x="126" y="113" data-project="Vuln-Eval-Platform">VULN-EVAL-PLATFORM</text>
+      <text x="126" y="187" data-project="Arborchive">ARBORCHIVE</text>
+      <text x="126" y="261" data-project="IPI-Security-Vault">IPI-SECURITY-VAULT</text>
+      <text x="126" y="335" data-project="KaliMac" fill="#9A6700">KALIMAC</text>
+      <text x="126" y="409" data-project="VulnArc" fill="#1A7F37">VULNARC</text>
+    </g>
+  </g>
+</svg>

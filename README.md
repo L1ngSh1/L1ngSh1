@@ -1,8 +1,10 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/header-mobile.svg">
-  <img src="assets/header.svg" alt="L1ngSh1 — AI Security Researcher" width="100%">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/header-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header.svg">
+  <source media="(max-width: 600px)" srcset="assets/light/header-mobile.svg">
+  <img src="assets/light/header.svg" alt="L1ngSh1 — AI Security Researcher" width="100%">
 </picture>
 
 [![Typing introduction](https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=17&duration=3800&pause=1200&color=8B949E&center=true&vCenter=true&repeat=true&width=760&height=42&lines=AI+Security+Researcher;Breaking+agents+to+build+safer+systems;Exploring+indirect+prompt+injection;Building+program-analysis+tools;Automating+vulnerability+discovery;Training+for+offensive+security)](https://git.io/typing-svg)
@@ -10,8 +12,10 @@
 </div>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/divider-mobile.svg">
-  <img src="assets/divider.svg" alt="Research node divider" width="100%">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/divider-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider.svg">
+  <source media="(max-width: 600px)" srcset="assets/light/divider-mobile.svg">
+  <img src="assets/light/divider.svg" alt="Research node divider" width="100%">
 </picture>
 
 ### `$ whoami`
@@ -29,8 +33,10 @@ status   : LEARNING · BUILDING · BREAKING
 I build security tools, reproduce research systems, and study how intelligent agents fail under adversarial conditions.
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/research-mobile.svg">
-  <img src="assets/research.svg" alt="Research console" width="100%">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/research-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/research.svg">
+  <source media="(max-width: 600px)" srcset="assets/light/research-mobile.svg">
+  <img src="assets/light/research.svg" alt="Research console" width="100%">
 </picture>
 
 ### Current Research
@@ -48,8 +54,10 @@ Reproducible benchmarks and metrics for security tools and automated vulnerabili
 Practical red-team skills grounded in real attack surfaces and defensible research questions.
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/divider-mobile.svg">
-  <img src="assets/divider.svg" alt="Research node divider" width="100%">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/divider-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider.svg">
+  <source media="(max-width: 600px)" srcset="assets/light/divider-mobile.svg">
+  <img src="assets/light/divider.svg" alt="Research node divider" width="100%">
 </picture>
 
 ### GitHub Telemetry
@@ -57,32 +65,42 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
 <!-- Auto-generated every 12 hours by .github/workflows/update-github-telemetry.yml. -->
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/github-telemetry-mobile.svg">
-  <img src="assets/github-telemetry.svg" alt="GitHub Telemetry" width="100%">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/github-telemetry-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/github-telemetry.svg">
+  <source media="(max-width: 600px)" srcset="assets/light/github-telemetry-mobile.svg">
+  <img src="assets/light/github-telemetry.svg" alt="GitHub Telemetry" width="100%">
 </picture>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/divider-mobile.svg">
-  <img src="assets/divider.svg" alt="Research node divider" width="100%">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/divider-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider.svg">
+  <source media="(max-width: 600px)" srcset="assets/light/divider-mobile.svg">
+  <img src="assets/light/divider.svg" alt="Research node divider" width="100%">
 </picture>
 
 ### Security & Engineering Stack
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/stack-mobile.svg">
-  <img src="assets/stack.svg" alt="Security &amp; Engineering Stack — Languages; Analysis Infrastructure; Security Environment, including Kali Linux and Metasploit; Agent &amp; Evaluation Research" width="100%">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/stack-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack.svg">
+  <source media="(max-width: 600px)" srcset="assets/light/stack-mobile.svg">
+  <img src="assets/light/stack.svg" alt="Security &amp; Engineering Stack — Languages; Analysis Infrastructure; Security Environment, including Kali Linux and Metasploit; Agent &amp; Evaluation Research" width="100%">
 </picture>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/divider-mobile.svg">
-  <img src="assets/divider.svg" alt="Research node divider" width="100%">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/divider-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider.svg">
+  <source media="(max-width: 600px)" srcset="assets/light/divider-mobile.svg">
+  <img src="assets/light/divider.svg" alt="Research node divider" width="100%">
 </picture>
 
 ### Featured Systems
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/projects-mobile.svg">
-  <img src="assets/projects.svg" alt="Five featured systems: Vuln-Eval-Platform, Arborchive, IPI-Security-Vault, KaliMac, and VulnArc" width="100%">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/projects-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/projects.svg">
+  <source media="(max-width: 600px)" srcset="assets/light/projects-mobile.svg">
+  <img src="assets/light/projects.svg" alt="Five featured systems: Vuln-Eval-Platform, Arborchive, IPI-Security-Vault, KaliMac, and VulnArc" width="100%">
 </picture>
 
 #### 🛡️ [`01 / Vuln-Eval-Platform`](https://github.com/L1ngSh1/Vuln-Eval-Platform)
@@ -122,8 +140,10 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
 - 📡 [`netwatch-cli`](https://github.com/L1ngSh1/netwatch-cli) — lightweight network and system inspection for security-engineering workflows.
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/divider-mobile.svg">
-  <img src="assets/divider.svg" alt="Research node divider" width="100%">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/divider-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider.svg">
+  <source media="(max-width: 600px)" srcset="assets/light/divider-mobile.svg">
+  <img src="assets/light/divider.svg" alt="Research node divider" width="100%">
 </picture>
 
 ### Research Log
@@ -145,8 +165,10 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
 ```
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/contact-mobile.svg">
-  <img src="assets/contact.svg" alt="TCP three-way handshake contact panel" width="100%">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/contact-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/contact.svg">
+  <source media="(max-width: 600px)" srcset="assets/light/contact-mobile.svg">
+  <img src="assets/light/contact.svg" alt="TCP three-way handshake contact panel" width="100%">
 </picture>
 
 <!-- LinkedIn uses a Shields custom-logo data URI because Simple Icons removed the named icon in v14. -->
@@ -161,6 +183,8 @@ Practical red-team skills grounded in real attack surfaces and defensible resear
 </p>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/footer-mobile.svg">
-  <img src="assets/footer.svg" alt="L1ngSh1 research console footer" width="100%">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/footer-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer.svg">
+  <source media="(max-width: 600px)" srcset="assets/light/footer-mobile.svg">
+  <img src="assets/light/footer.svg" alt="L1ngSh1 research console footer" width="100%">
 </picture>

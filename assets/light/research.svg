@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+  <title id="title">Current research surface</title>
+  <desc id="desc">Four peer research domains on one shared surface. All four research domains are active.</desc>
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace; }
+      .connector { stroke: #D0D7DE; stroke-width: 2; }
+      .node { fill: #F6F8FA; stroke: #57606A; }
+      .node-active { stroke: #CF222E; stroke-opacity: .72; }
+      .label { fill: #57606A; }
+      .label-active { fill: #24292F; }
+      .active-halo { fill: none; stroke: #CF222E; stroke-width: 1.25; stroke-dasharray: 3 7; stroke-opacity: .80; }
+      .active-status { fill: #1A7F37; font-size: 12px; letter-spacing: 1px; }
+    </style>
+  </defs>
+  <rect width="1200" height="180" rx="14" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="1198" height="178" rx="13" fill="none" stroke="#D0D7DE"/>
+  <g class="mono">
+    <text x="28" y="32" fill="#57606A" font-size="16" letter-spacing=".7">RESEARCH SURFACE / LIVE TRACE</text>
+    <text x="1172" y="32" text-anchor="end" fill="#1A7F37" font-size="16">4 NODES ONLINE</text>
+    <path class="connector" d="M126 91H390M458 91H722M790 91H1054"/>
+    <g class="node">
+      <circle class="node-active" cx="92" cy="91" r="34"/><circle class="node-active" cx="424" cy="91" r="34"/><circle class="node-active" cx="756" cy="91" r="34"/><circle class="node-active" cx="1088" cy="91" r="34"/>
+    </g>
+    <g fill="#1F2328" text-anchor="middle" font-size="18" font-weight="700">
+      <text x="92" y="96">01</text><text x="424" y="96">02</text><text x="756" y="96">03</text><text x="1088" y="96">04</text>
+    </g>
+    <g class="label" text-anchor="middle" font-size="16" letter-spacing=".25">
+      <text class="label-active" x="92" y="148">AGENT SECURITY</text><text class="label-active" x="424" y="148">PROGRAM ANALYSIS</text><text class="label-active" x="756" y="148">EVALUATION</text><text class="label-active" x="1088" y="148">OFFENSIVE SECURITY</text>
+    </g>
+    <g class="active-status" text-anchor="middle">
+      <text x="92" y="166">ACTIVE</text><text x="424" y="166">ACTIVE</text><text x="756" y="166">ACTIVE</text><text x="1088" y="166">ACTIVE</text>
+    </g>
+    <circle class="active-halo" cx="92" cy="91" r="41"/>
+    <circle class="active-halo" cx="424" cy="91" r="41"/>
+    <circle class="active-halo" cx="756" cy="91" r="41"/>
+    <circle class="active-halo" cx="1088" cy="91" r="41"/>
+  </g>
+</svg>

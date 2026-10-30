@@ -405,6 +405,8 @@ def write_if_changed(path: Path, content: str) -> bool:
 
 
 def main() -> int:
+    from generate_light_assets import write_light_asset
+
     username = os.environ.get("GITHUB_USERNAME", DEFAULT_USERNAME).strip() or DEFAULT_USERNAME
     token = os.environ.get("GITHUB_TOKEN", "").strip()
     if not token:
@@ -422,6 +424,8 @@ def main() -> int:
     mobile_svg = build_mobile_svg(username, profile, repositories, language_bytes, contributions)
     write_if_changed(OUTPUT, svg)
     write_if_changed(MOBILE_OUTPUT, mobile_svg)
+    write_light_asset(OUTPUT)
+    write_light_asset(MOBILE_OUTPUT)
     return 0
 
 

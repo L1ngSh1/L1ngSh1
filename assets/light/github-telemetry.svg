@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub telemetry console for L1ngSh1</title>
+  <desc id="desc">A first-party GitHub observability console showing repositories, followers, stars, forks, yearly contributions, language composition, and activity streaks.</desc>
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,monospace; }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    </style>
+  </defs>
+  <rect width="1200" height="470" rx="14" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="1198" height="468" rx="13" fill="none" stroke="#D0D7DE"/>
+  <g class="mono">
+    <text x="32" y="39" fill="#57606A" font-size="14" letter-spacing=".8">GITHUB TELEMETRY / L1NGSH1</text>
+    <circle cx="1079" cy="34" r="4" fill="#1A7F37"/>
+    <text x="1091" y="39" fill="#1A7F37" font-size="14" letter-spacing=".8">SYNCED</text>
+    <text x="1168" y="60" text-anchor="end" fill="#57606A" font-size="13" letter-spacing=".6">AUTO-SYNC / 12H</text>
+    <path d="M32 68H1168" stroke="#D0D7DE"/>
+
+    <g fill="#57606A" font-size="14" letter-spacing=".4"><text x="32.0" y="102">PUBLIC REPOS</text><text x="259.2" y="102">FOLLOWERS</text><text x="486.4" y="102">STARS</text><text x="713.6" y="102">FORKS</text><text x="940.8" y="102">TOTAL CONTRIBUTIONS</text></g>
+    <g fill="#1F2328" font-size="34" font-weight="700"><text x="32.0" y="145">12</text><text x="259.2" y="145">10</text><text x="486.4" y="145">6</text><text x="713.6" y="145">0</text><text x="940.8" y="145">815</text></g>
+    <path d="M241.2 82V158 M468.4 82V158 M695.6 82V158 M922.8 82V158" stroke="#D0D7DE"/>
+    <path d="M32 180H1168" stroke="#D0D7DE"/>
+
+    <rect x="32" y="210" width="548" height="228" rx="8" fill="none" stroke="#D0D7DE"/>
+    <text x="54" y="242" fill="#57606A" font-size="15" letter-spacing=".6">LANGUAGE COMPOSITION</text>
+    <circle cx="160" cy="326" r="72" fill="#D0D7DE"/>
+    <path d="M160 326 L160.00 254.00 A72 72 0 0 1 174.06 396.61 Z" fill="#9A6700" stroke="#FFFFFF" stroke-width="1.5" stroke-linejoin="round"/><path d="M160 326 L174.06 396.61 A72 72 0 0 1 91.59 348.44 Z" fill="#1A7F37" stroke="#FFFFFF" stroke-width="1.5" stroke-linejoin="round"/><path d="M160 326 L91.59 348.44 A72 72 0 0 1 121.58 265.11 Z" fill="#CF222E" stroke="#FFFFFF" stroke-width="1.5" stroke-linejoin="round"/><path d="M160 326 L121.58 265.11 A72 72 0 0 1 133.12 259.20 Z" fill="#57606A" stroke="#FFFFFF" stroke-width="1.5" stroke-linejoin="round"/><path d="M160 326 L133.12 259.20 A72 72 0 0 1 142.15 256.25 Z" fill="#1F2328" stroke="#FFFFFF" stroke-width="1.5" stroke-linejoin="round"/><path d="M160 326 L142.15 256.25 A72 72 0 0 1 160.00 254.00 Z" fill="#D0D7DE" stroke="#FFFFFF" stroke-width="1.5" stroke-linejoin="round"/>
+    <circle cx="284" cy="283" r="4" fill="#9A6700"/><text x="296" y="287" fill="#57606A" font-size="15">Java <tspan fill="#1F2328">47%</tspan></text><circle cx="434" cy="283" r="4" fill="#1A7F37"/><text x="446" y="287" fill="#57606A" font-size="15">HTML <tspan fill="#1F2328">23%</tspan></text><circle cx="284" cy="321" r="4" fill="#CF222E"/><text x="296" y="325" fill="#57606A" font-size="15">Python <tspan fill="#1F2328">21%</tspan></text><circle cx="434" cy="321" r="4" fill="#57606A"/><text x="446" y="325" fill="#57606A" font-size="15">Go <tspan fill="#1F2328">3%</tspan></text><circle cx="284" cy="359" r="4" fill="#1F2328"/><text x="296" y="363" fill="#57606A" font-size="15">JavaScript <tspan fill="#1F2328">2%</tspan></text><circle cx="434" cy="359" r="4" fill="#D0D7DE"/><text x="446" y="363" fill="#57606A" font-size="15">OTHER <tspan fill="#1F2328">4%</tspan></text>
+
+    <rect x="604" y="210" width="564" height="228" rx="8" fill="none" stroke="#D0D7DE"/>
+    <circle cx="628" cy="238" r="4" fill="#CF222E"/>
+    <text x="642" y="242" fill="#57606A" font-size="15" letter-spacing=".6">ACTIVITY STREAK</text>
+    <path d="M792 278V386M980 278V386" stroke="#D0D7DE"/>
+    <g fill="#57606A" font-size="13" letter-spacing=".4" text-anchor="middle">
+      <text x="698" y="300">CURRENT STREAK</text>
+      <text x="886" y="300">LONGEST STREAK</text>
+      <text x="1074" y="300">LAST ACTIVE</text>
+    </g>
+    <g fill="#1F2328" font-size="34" font-weight="700" text-anchor="middle">
+      <text x="698" y="353">30</text>
+      <text x="886" y="353">30</text>
+      <text x="1074" y="353" font-size="25">Oct 15</text>
+    </g>
+    <g fill="#57606A" font-size="13" letter-spacing=".4" text-anchor="middle">
+      <text x="698" y="378">DAYS</text>
+      <text x="886" y="378">DAYS / 1Y</text>
+      <text x="1074" y="378">UTC</text>
+    </g>
+  </g>
+</svg>
